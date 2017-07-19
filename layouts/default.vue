@@ -21,6 +21,11 @@ html {
   box-sizing: border-box;
 }
 
+body,
+html {
+  overflow: hidden;
+}
+
 *,
 *:before,
 *:after {
