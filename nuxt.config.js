@@ -7,7 +7,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'The official website for VandyHacks IV, Nashville\'s premiere hackathon' },
+      { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
@@ -24,7 +25,7 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
