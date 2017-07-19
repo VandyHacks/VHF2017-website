@@ -29,6 +29,6 @@
     transform: translateZ(-0.5px) scale(1.5);
   }
   &.base {
-    transform: translateZ(0);
+    transform: none;
   }
 }

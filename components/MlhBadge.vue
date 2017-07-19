@@ -13,7 +13,7 @@
     right: 15px;
     top: 0;
     width: 10%;
-    z-index: 0;
+    z-index: 5;
 
     @media (min-width: 960px) {
         max-width: 75px;
