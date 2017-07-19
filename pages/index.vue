@@ -2,12 +2,12 @@
   <section class="container">
     <div class="top-viewport">
       <div class="title-text parallax" data-rellax-speed="-10">
-        <img class="title" src="/vandyhacks-text.svg" />
+        <img class="title" src="~assets/img/vandyhacks-text.svg" />
         <h2 class="subtitle">
           October 20-22 at Vanderbilt University
         </h2>
       </div>
-      <img class="batman-building parallax" src="/batman.svg" data-rellax-speed="-5"/>
+      <img class="batman-building parallax" src="~assets/img/batman.svg" data-rellax-speed="-5"/>
     </div>
     <div class="page-content">
       aaa
