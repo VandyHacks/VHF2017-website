@@ -1,6 +1,7 @@
 <template>
   <section class="scroll-container">
     <div class="top-viewport">
+      <mlhbadge></mlhbadge>
       <div class="title-text parallax" data-rellax-speed="-10">
         <img class="title" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
         <h2 class="subtitle">
@@ -43,11 +44,13 @@
 
 <script>
 import Rellax from 'rellax'
+import MlhBadge from '~components/MlhBadge.vue'
 import Separator from '~components/Separator.vue'
 import Infobox from '~components/Infobox.vue'
 
 export default {
   components: {
+    mlhbadge: MlhBadge,
     separator: Separator,
     infobox: Infobox
   },
@@ -112,8 +115,8 @@ $break-lg: 768px;
 }
 
 .page-content {
-  flex: 1;
   background: #fff;
+  z-index: 1;
 }
 
 .feature-block {
