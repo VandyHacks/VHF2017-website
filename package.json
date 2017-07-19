@@ -5,7 +5,8 @@
   "author": "Yunyu Lin <yunyu.lin@vanderbilt.edu>",
   "private": true,
   "dependencies": {
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "rellax": "^1.0.0"
   },
   "scripts": {
     "dev": "nuxt",
