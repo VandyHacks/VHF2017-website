@@ -80,8 +80,24 @@ export default {
 }
 
 .subtitle {
-  font-size: 36px;
+  font-size: 16px;
   color: #374c5f;
+
+  @media (min-width: 360px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 432px) {
+    font-size: 22px;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 28px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
 }
 
 .batman-building {
