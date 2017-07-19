@@ -1,12 +1,28 @@
 <template>
-    <div class="separator"></div>
+  <div :class="{ separator: true, dark: dark }">
+  </div>
 </template>
 
-<style scoped>
+<script>
+export default {
+  props: {
+    dark: {
+      type: Boolean,
+      default: false
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
 .separator {
-    width: 60px;
-    height: 4px;
-    background: #fff;
-    margin: 15px auto;
+  width: 60px;
+  height: 4px;
+  background: #fff;
+  margin: 20px auto;
+
+  &.dark {
+    background: #000;
+  }
 }
 </style>

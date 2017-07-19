@@ -34,5 +34,6 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  css: ['flexboxgrid/dist/flexboxgrid.css']
 }

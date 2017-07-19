@@ -5,6 +5,7 @@
   "author": "Yunyu Lin <yunyu.lin@vanderbilt.edu>",
   "private": true,
   "dependencies": {
+    "flexboxgrid": "^6.3.1",
     "nuxt": "latest",
     "rellax": "^1.0.0"
   },
