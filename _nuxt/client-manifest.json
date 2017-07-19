@@ -5,21 +5,21 @@
     "img/vandyhacks-text.d9d2ff5.svg",
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProRegular.a3e9ad2.woff2",
-    "0.nuxt.bundle.724a4711e795d194a46b.js",
-    "1.nuxt.bundle.07816682d64d3526fd07.js",
-    "vendor.bundle.8801dedf2b10c319ac90.js",
-    "nuxt.bundle.7900ed04bc79d3ad63e8.js",
-    "manifest.596942545b99f49e193c.js",
+    "0.nuxt.bundle.5c6a6372749cb841dccc.js",
+    "1.nuxt.bundle.a0d6b1d8e0d107507d3b.js",
+    "vendor.bundle.9d57d8937d4512c78be8.js",
+    "nuxt.bundle.bf869b59761687af13fc.js",
+    "manifest.4de0b1e129fbd4b503bc.js",
     "index.html"
   ],
   "initial": [
-    "manifest.596942545b99f49e193c.js",
-    "vendor.bundle.8801dedf2b10c319ac90.js",
-    "nuxt.bundle.7900ed04bc79d3ad63e8.js"
+    "manifest.4de0b1e129fbd4b503bc.js",
+    "vendor.bundle.9d57d8937d4512c78be8.js",
+    "nuxt.bundle.bf869b59761687af13fc.js"
   ],
   "async": [
-    "0.nuxt.bundle.724a4711e795d194a46b.js",
-    "1.nuxt.bundle.07816682d64d3526fd07.js"
+    "0.nuxt.bundle.5c6a6372749cb841dccc.js",
+    "1.nuxt.bundle.a0d6b1d8e0d107507d3b.js"
   ],
   "modules": {
     "37843960": [
@@ -81,9 +81,6 @@
     "8e6ad95e": [
       6
     ],
-    "40f1ae2e": [
-      6
-    ],
     "109abeef": [
       6
     ],
@@ -105,10 +102,7 @@
     "aa822a12": [
       6
     ],
-    "3f39d26a": [
-      6
-    ],
-    "1cd114e1": [
+    "40f1ae2e": [
       6
     ],
     "32c07f7c": [
@@ -175,6 +169,12 @@
       6
     ],
     "46fabbc3": [
+      6
+    ],
+    "3f39d26a": [
+      6
+    ],
+    "1cd114e1": [
       6
     ],
     "00f358db": [
@@ -250,9 +250,6 @@
       7
     ],
     "680eaaa1": [
-      7
-    ],
-    "320d3ed0": [
       7
     ],
     "54280ca9": [
@@ -399,9 +396,6 @@
     "6413c436": [
       7
     ],
-    "7281538e": [
-      7
-    ],
     "1ced4a00": [
       6
     ],
@@ -409,9 +403,6 @@
       6
     ],
     "25ac43c1": [
-      7
-    ],
-    "9c21ac90": [
       7
     ],
     "a4ee146e": [
@@ -423,9 +414,6 @@
     "95b2ea44": [
       7
     ],
-    "18cbd96e": [
-      7
-    ],
     "75fa9dee": [
       7
     ],
@@ -433,9 +421,6 @@
       7
     ],
     "bad9409a": [
-      7
-    ],
-    "0f8803cb": [
       7
     ],
     "5af704e4": [
@@ -488,11 +473,6 @@
       1
     ],
     "ac152834": [
-      4,
-      0,
-      1
-    ],
-    "7437ab40": [
       4,
       0,
       1
