@@ -12,7 +12,10 @@
     <div class="page-content">
       <div class="description">
         <div class="text-contents">
-          Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call the rockin' city of Nashville, Tennessee home. Now, we're proud to bring you VandyHacks III- and it's gonna be even bigger and better. From November 11-13, 350+ students from universities all over the nation will meet at Vanderbilt University for a weekend of collaboration, innovation, and great food.
+          <h1>Welcome to VandyHacks IV</h1>
+          <separator></separator>
+          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call the rockin' city of Nashville, Tennessee home. 
+          Now, we're proud to bring you VandyHacks IV - and it's gonna be even bigger and better. From October 20-22, 400+ students from universities all over the nation will meet at Vanderbilt University for a weekend of collaboration, innovation, and great food.</p>
         </div>
       </div>
     </div>
@@ -21,8 +24,12 @@
 
 <script>
 import Rellax from 'rellax'
+import Separator from '~components/Separator.vue'
 
 export default {
+  components: {
+    separator: Separator
+  },
   mounted() {
     this.rellax = new Rellax('.parallax')
   },
@@ -79,7 +86,11 @@ export default {
 .description {
   background: #253340;
   padding: 50px;
+  color: white;
 
-
+  h1 {
+    text-align: center;
+    font-size: 36px;
+  }
 }
 </style>
