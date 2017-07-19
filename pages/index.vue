@@ -64,6 +64,10 @@ $break-m: 576px;
 $break-l: 768px;
 $break-xxl: 1600px;
 
+/*
+There are offset issues on Chrome desktop, most noticeable at extremely low widths
+Do not attempt to try to fix them, the offsets are fine on mobile where they matter
+*/
 .logo {
   position: absolute;
   left: 0;
