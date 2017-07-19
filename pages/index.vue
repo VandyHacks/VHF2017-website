@@ -7,10 +7,14 @@
           October 20-22 at Vanderbilt University
         </h2>
       </div>
-      <img class="batman-building parallax" src="~assets/img/batman.svg" data-rellax-speed="-5"/>
+      <img class="batman-building parallax" src="~assets/img/batman.svg" data-rellax-speed="-5" />
     </div>
     <div class="page-content">
-      aaa
+      <div class="description">
+        <div class="text-contents">
+          Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call the rockin' city of Nashville, Tennessee home. Now, we're proud to bring you VandyHacks III- and it's gonna be even bigger and better. From November 11-13, 350+ students from universities all over the nation will meet at Vanderbilt University for a weekend of collaboration, innovation, and great food.
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -28,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
   min-height: 100vh;
   flex-flow: column;
@@ -63,6 +67,19 @@ export default {
 
 .page-content {
   flex: 1;
-  background: red;
+  background: #fff;
+}
+
+.text-contents {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  background: #253340;
+  padding: 50px;
+
+
 }
 </style>
