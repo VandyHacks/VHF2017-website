@@ -42,7 +42,6 @@
 </template>
 
 <script>
-import Rellax from 'rellax'
 import MlhBadge from '~components/MlhBadge.vue'
 import Separator from '~components/Separator.vue'
 import Infobox from '~components/Infobox.vue'
@@ -52,12 +51,6 @@ export default {
     mlhbadge: MlhBadge,
     separator: Separator,
     infobox: Infobox
-  },
-  mounted() {
-    this.rellax = new Rellax('.parallax')
-  },
-  destroyed() {
-    this.rellax.destroy()
   }
 }
 </script>
