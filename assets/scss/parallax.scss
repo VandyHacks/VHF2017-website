@@ -23,10 +23,10 @@
   transform-origin: 100% 100%;
 
   &.deep {
-    transform: translateZ(-2px) scale(3);
+    transform: translateZ(-2.5px) scale(3.5);
   }
   &.back {
-    transform: translateZ(-1px) scale(2);
+    transform: translateZ(-0.5px) scale(1.5);
   }
   &.base {
     transform: translateZ(0);
