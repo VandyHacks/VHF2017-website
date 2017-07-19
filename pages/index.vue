@@ -78,7 +78,7 @@ $break-lg: 768px;
 }
 
 .title-text {
-  margin-top: 20vh;
+  margin-top: 17.5vh;
   margin-left: auto;
   margin-right: auto;
   z-index: -2;

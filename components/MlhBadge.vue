@@ -16,8 +16,13 @@
     z-index: 0;
 
     @media (min-width: 960px) {
-        max-width: 90px;
+        max-width: 75px;
         right: 35px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 96px;
+        right: 50px;
     }
 }
 </style>
