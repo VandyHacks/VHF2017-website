@@ -56,9 +56,13 @@ export default {
 </script>
 
 <style lang="scss">
-$break-lg: 768px;
-
 @import '~assets/scss/parallax.scss';
+
+$break-s: 360px;
+$break-sm: 432px;
+$break-m: 576px;
+$break-l: 768px;
+$break-xxl: 1600px;
 
 .logo {
   position: absolute;
@@ -69,29 +73,41 @@ $break-lg: 768px;
   /* Responsiveness */
   width: 290px;
 
-  @media (min-width: 360px) {
+  @media (min-width: $break-s) {
     width: 320px;
   }
 
-  @media (min-width: 432px) {
+  @media (min-width: $break-sm) {
     width: 390px;
   }
 
-  @media (min-width: 576px) {
+  @media (min-width: $break-m) {
     width: 495px;
   }
 
-  @media (min-width: $break-lg) {
+  @media (min-width: $break-l) {
     width: 635px;
   }
 }
 
 .batman-building {
   position: absolute;
-  max-width: 512px;
   left: 0;
   right: 0;
   margin: 33vh auto 0;
+  max-width: 256px;
+
+  @media (min-width: $break-sm) {
+    max-width: 360px;
+  }
+
+  @media (min-width: $break-m) {
+    max-width: 400px;
+  }
+
+  @media (min-width: $break-xxl) {
+    max-width: 512px;
+  }
 }
 
 .page-content {
@@ -102,7 +118,7 @@ $break-lg: 768px;
   padding: 36px;
   background: #fff;
 
-  @media (min-width: $break-lg) {
+  @media (min-width: $break-l) {
     padding: 60px;
   }
 }
@@ -114,7 +130,7 @@ $break-lg: 768px;
 
   h1 {
     text-align: center;
-    @media (min-width: $break-lg) {
+    @media (min-width: $break-l) {
       font-size: 36px;
     }
   }
