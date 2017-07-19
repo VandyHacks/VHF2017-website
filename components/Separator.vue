@@ -1,12 +1,12 @@
 <template>
-  <div :class="{ separator: true, dark: dark }">
+  <div :class="{ separator: true, white: white }">
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    dark: {
+    white: {
       type: Boolean,
       default: false
     }
@@ -18,11 +18,11 @@ export default {
 .separator {
   width: 60px;
   height: 4px;
-  background: #fff;
+  background: #000;
   margin: 20px auto;
 
-  &.dark {
-    background: #000;
+  &.white {
+    background: #fff;
   }
 }
 </style>
