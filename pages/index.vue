@@ -3,10 +3,7 @@
     <div class="top-viewport">
       <mlhbadge></mlhbadge>
       <div class="title-text parallax" data-rellax-speed="-6">
-        <img class="title" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
-        <h2 class="subtitle">
-          October 20-22 at Vanderbilt University
-        </h2>
+        <img class="logo" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
       </div>
       <img class="batman-building parallax" alt="AT&T Building" src="~assets/img/batman.svg" data-rellax-speed="-5" />
     </div>
@@ -86,7 +83,7 @@ $break-lg: 768px;
   right: 0;
 }
 
-.title {
+.logo {
   /* Necessary for smooth scrolling on mobile Chrome */
   width: 290px;
 
@@ -104,27 +101,6 @@ $break-lg: 768px;
 
   @media (min-width: $break-lg) {
     width: 635px;
-  }
-}
-
-.subtitle {
-  font-size: 16px;
-  color: #374c5f;
-
-  @media (min-width: 360px) {
-    font-size: 18px;
-  }
-
-  @media (min-width: 432px) {
-    font-size: 22px;
-  }
-
-  @media (min-width: 576px) {
-    font-size: 28px;
-  }
-
-  @media (min-width: $break-lg) {
-    font-size: 36px;
   }
 }
 
