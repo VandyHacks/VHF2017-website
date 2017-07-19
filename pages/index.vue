@@ -2,7 +2,7 @@
   <section class="scroll-container">
     <div class="top-viewport">
       <mlhbadge></mlhbadge>
-      <div class="title-text parallax" data-rellax-speed="-10">
+      <div class="title-text parallax" data-rellax-speed="-6">
         <img class="title" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
         <h2 class="subtitle">
           October 20-22 at Vanderbilt University
@@ -79,9 +79,32 @@ $break-lg: 768px;
 
 .title-text {
   margin-top: 17.5vh;
-  margin-left: auto;
-  margin-right: auto;
   z-index: -2;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  /* Necessary for smooth scrolling on mobile Chrome */
+  width: 290px;
+
+  @media (min-width: 360px) {
+    width: 320px;
+  }
+
+  @media (min-width: 432px) {
+    width: 390px;
+  }
+
+  @media (min-width: 576px) {
+    width: 495px;
+  }
+
+  @media (min-width: $break-lg) {
+    width: 635px;
+  }
 }
 
 .subtitle {
