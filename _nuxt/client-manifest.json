@@ -5,20 +5,20 @@
     "img/vandyhacks-text.859ba41.svg",
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProRegular.a3e9ad2.woff2",
-    "0.nuxt.bundle.fed552a4fe62f9b44532.js",
+    "0.nuxt.bundle.1d32e1118f9c291dda02.js",
     "1.nuxt.bundle.07816682d64d3526fd07.js",
     "vendor.bundle.8801dedf2b10c319ac90.js",
     "nuxt.bundle.7900ed04bc79d3ad63e8.js",
-    "manifest.fc6b03c4c8284a8b5dbd.js",
+    "manifest.ddb2e3cb4e71aed82063.js",
     "index.html"
   ],
   "initial": [
-    "manifest.fc6b03c4c8284a8b5dbd.js",
+    "manifest.ddb2e3cb4e71aed82063.js",
     "vendor.bundle.8801dedf2b10c319ac90.js",
     "nuxt.bundle.7900ed04bc79d3ad63e8.js"
   ],
   "async": [
-    "0.nuxt.bundle.fed552a4fe62f9b44532.js",
+    "0.nuxt.bundle.1d32e1118f9c291dda02.js",
     "1.nuxt.bundle.07816682d64d3526fd07.js"
   ],
   "modules": {
