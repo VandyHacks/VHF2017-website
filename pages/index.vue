@@ -2,9 +2,7 @@
   <section class="scroll-container">
     <div class="top-viewport">
       <mlhbadge></mlhbadge>
-      <div class="title-text parallax" data-rellax-speed="-6">
-        <img class="logo" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
-      </div>
+      <img class="logo parallax" data-rellax-speed="-6" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
       <img class="batman-building parallax" alt="AT&T Building" src="~assets/img/batman.svg" data-rellax-speed="-5" />
     </div>
     <div class="page-content">
@@ -74,17 +72,14 @@ $break-lg: 768px;
   height: 100vh;
 }
 
-.title-text {
-  top: 17.5vh;
-  z-index: -2;
+.logo {
   position: absolute;
-  text-align: center;
   left: 0;
   right: 0;
-}
+  margin: 17.5vh auto 0;
+  z-index: -2;
 
-.logo {
-  /* Necessary for smooth scrolling on mobile Chrome */
+  /* Responsiveness */
   width: 290px;
 
   @media (min-width: 360px) {
