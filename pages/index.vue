@@ -32,6 +32,7 @@ export default {
 .container {
   min-height: 100vh;
   flex-flow: column;
+  display: flex;
 }
 
 .top-viewport {
@@ -53,7 +54,7 @@ export default {
 
 .batman-building {
   position: absolute;
-  max-width: 600px;
+  max-width: 512px;
   left: 0;
   right: 0;
   margin: 33vh auto 0;
@@ -61,7 +62,7 @@ export default {
 }
 
 .page-content {
-  flex: 2;
+  flex: 1;
   background: red;
 }
 </style>
