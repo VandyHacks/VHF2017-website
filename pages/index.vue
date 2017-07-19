@@ -61,6 +61,8 @@ export default {
 </script>
 
 <style lang="scss">
+$break-lg: 768px;
+
 .scroll-container {
   min-height: 100vh;
   flex-flow: column;
@@ -95,7 +97,7 @@ export default {
     font-size: 28px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $break-lg) {
     font-size: 36px;
   }
 }
@@ -115,7 +117,11 @@ export default {
 }
 
 .feature-block {
-  padding: 60px;
+  padding: 36px;
+
+  @media (min-width: $break-lg) {
+    padding: 60px;
+  }
 }
 
 .text-contents {
@@ -125,7 +131,9 @@ export default {
 
   h1 {
     text-align: center;
-    font-size: 36px;
+    @media (min-width: $break-lg) {
+      font-size: 36px;
+    }
   }
 }
 
