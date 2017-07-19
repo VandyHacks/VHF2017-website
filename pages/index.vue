@@ -1,11 +1,15 @@
 <template>
-  <section class="scroll-container">
-    <div class="top-viewport">
-      <mlhbadge></mlhbadge>
-      <img class="logo parallax" data-rellax-speed="-6" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
-      <img class="batman-building parallax" data-rellax-speed="-4" alt="AT&T Building" src="~assets/img/batman.svg" />
+  <section class="parallax">
+    <mlhbadge></mlhbadge>
+    <div class="parallax-group">
+      <div class="parallax-layer deep">
+        <img class="logo" data-rellax-speed="-6" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
+      </div>
+      <div class="parallax-layer back">
+        <img class="batman-building" data-rellax-speed="-4" alt="AT&T Building" src="~assets/img/batman.svg" />
+      </div>
     </div>
-    <div class="page-content">
+    <div class="parallax-layer base page-content">
       <div class="description feature-block">
         <div class="text-contents">
           <h1>Welcome to VandyHacks IV</h1>
@@ -38,7 +42,6 @@
 </template>
 
 <script>
-import Rellax from 'rellax'
 import MlhBadge from '~components/MlhBadge.vue'
 import Separator from '~components/Separator.vue'
 import Infobox from '~components/Infobox.vue'
@@ -48,12 +51,6 @@ export default {
     mlhbadge: MlhBadge,
     separator: Separator,
     infobox: Infobox
-  },
-  mounted() {
-    this.rellax = new Rellax('.parallax')
-  },
-  destroyed() {
-    this.rellax.destroy()
   }
 }
 </script>
@@ -61,23 +58,13 @@ export default {
 <style lang="scss">
 $break-lg: 768px;
 
-.scroll-container {
-  min-height: 100vh;
-  flex-flow: column;
-  display: flex;
-}
-
-.top-viewport {
-  display: flex;
-  height: 100vh;
-}
+@import '~assets/scss/parallax.scss';
 
 .logo {
   position: absolute;
   left: 0;
   right: 0;
   margin: 17.5vh auto 0;
-  z-index: -2;
 
   /* Responsiveness */
   width: 290px;
@@ -105,16 +92,15 @@ $break-lg: 768px;
   left: 0;
   right: 0;
   margin: 33vh auto 0;
-  z-index: -1;
 }
 
 .page-content {
-  background: #fff;
-  z-index: 1;
+  top: 100vh;
 }
 
 .feature-block {
   padding: 36px;
+  background: #fff;
 
   @media (min-width: $break-lg) {
     padding: 60px;
