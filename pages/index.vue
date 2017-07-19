@@ -2,8 +2,8 @@
   <section class="scroll-container">
     <div class="top-viewport">
       <mlhbadge></mlhbadge>
-      <img class="logo parallax" data-rellax-speed="-6" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
-      <img class="batman-building parallax" alt="AT&T Building" src="~assets/img/batman.svg" data-rellax-speed="-5" />
+      <img class="logo parallax" data-rellax-speed="-7" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
+      <img class="batman-building parallax" data-rellax-speed="-5" alt="AT&T Building" src="~assets/img/batman.svg" />
     </div>
     <div class="page-content">
       <div class="description feature-block">
