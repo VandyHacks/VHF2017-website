@@ -4,7 +4,7 @@
     <div class="parallax-group">
       <div class="parallax-layer deepest">
         <img class="skyline" alt="Nashville Skyline" src="~assets/img/skyline.svg" />
-      </div>  
+      </div>
       <div class="parallax-layer deep">
         <img class="logo" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
       </div>
@@ -68,6 +68,11 @@ $break-xxl: 1600px;
 
 
 
+
+
+
+
+
 /*
 There are offset issues on Chrome desktop, most noticeable at extremely low widths
 Do not attempt to try to fix them, the offsets are fine on mobile where they matter
@@ -119,11 +124,31 @@ Do not attempt to try to fix them, the offsets are fine on mobile where they mat
   }
 }
 
+$skyline-color: #daeaf2;
+
 .skyline {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
+  margin: auto auto 0;
+  overflow: hidden;
+  border-bottom: 50px solid $skyline-color;
+  /* Disguise subpixel rounding issues */
+  box-shadow: inset 0px -2.5px $skyline-color;
+
+  @media (min-width: $break-sm) {
+    border-bottom: 30px solid $skyline-color;
+  }
+
+  @media (min-width: $break-m) {
+    border-bottom: 20px solid $skyline-color;
+  }
+
+  @media (min-width: $break-l) {
+    border-bottom: none;
+    box-shadow: none;
+  }
 }
 
 .page-content {
