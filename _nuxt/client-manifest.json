@@ -6,20 +6,20 @@
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProRegular.a3e9ad2.woff2",
     "0.nuxt.bundle.bef8142de589459cdfea.js",
-    "1.nuxt.bundle.a0d6b1d8e0d107507d3b.js",
+    "1.nuxt.bundle.c7a1157978f1afbfe5d3.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
     "nuxt.bundle.bf869b59761687af13fc.js",
-    "manifest.e8b1bd51c6a7715f7200.js",
+    "manifest.d6cc9aeb2c78ae3b9a2d.js",
     "index.html"
   ],
   "initial": [
-    "manifest.e8b1bd51c6a7715f7200.js",
+    "manifest.d6cc9aeb2c78ae3b9a2d.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
     "nuxt.bundle.bf869b59761687af13fc.js"
   ],
   "async": [
     "0.nuxt.bundle.bef8142de589459cdfea.js",
-    "1.nuxt.bundle.a0d6b1d8e0d107507d3b.js"
+    "1.nuxt.bundle.c7a1157978f1afbfe5d3.js"
   ],
   "modules": {
     "37843960": [
