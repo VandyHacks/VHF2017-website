@@ -2,7 +2,7 @@
 @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
   .parallax {
     perspective: 1px;
-    height: 100vh;
+    height: inherit;
     overflow-x: hidden;
     overflow-y: auto;
     perspective-origin: 100%;
@@ -11,7 +11,7 @@
 
   .parallax-group {
     position: relative;
-    height: 100vh;
+    height: inherit;
     transform-style: preserve-3d;
   }
 

@@ -22,7 +22,8 @@ html {
 }
 
 body,
-html {
+html,
+#__nuxt {
   height: 100%;
   overflow: hidden;
 }

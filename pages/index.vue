@@ -116,7 +116,7 @@ Do not attempt to try to fix them, the offsets are fine on mobile where they mat
 }
 
 .page-content {
-  top: 100vh;
+  top: 100%;
 }
 
 .feature-block {
