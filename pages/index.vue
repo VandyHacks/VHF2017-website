@@ -2,11 +2,14 @@
   <section class="parallax">
     <mlhbadge></mlhbadge>
     <div class="parallax-group">
+      <div class="parallax-layer deepest">
+        <img class="skyline" alt="Nashville Skyline" src="~assets/img/skyline.svg" />
+      </div>  
       <div class="parallax-layer deep">
-        <img class="logo" data-rellax-speed="-6" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
+        <img class="logo" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
       </div>
       <div class="parallax-layer back">
-        <img class="batman-building" data-rellax-speed="-4" alt="AT&T Building" src="~assets/img/batman.svg" />
+        <img class="batman-building" alt="AT&T Building" src="~assets/img/batman.svg" />
       </div>
     </div>
     <div class="parallax-layer base page-content">
@@ -64,6 +67,7 @@ $break-l: 768px;
 $break-xxl: 1600px;
 
 
+
 /*
 There are offset issues on Chrome desktop, most noticeable at extremely low widths
 Do not attempt to try to fix them, the offsets are fine on mobile where they matter
@@ -113,6 +117,13 @@ Do not attempt to try to fix them, the offsets are fine on mobile where they mat
   @media (min-width: $break-xxl) {
     max-width: 512px;
   }
+}
+
+.skyline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .page-content {
