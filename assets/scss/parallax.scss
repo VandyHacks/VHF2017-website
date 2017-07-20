@@ -1,34 +1,37 @@
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective-origin: 100% 100%;
-  -webkit-perspective-origin: 100% 100%;
-}
-
-.parallax-group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-
-.parallax-layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-
-  &.deep {
-    transform: translateZ(-2.5px) scale(3.5);
+// VSCode has a syntax validation bug for @supports, please ignore
+@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+  .parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective-origin: 100% 100%;
+    -webkit-perspective-origin: 100% 100%;
   }
-  &.back {
-    transform: translateZ(-0.5px) scale(1.5);
+
+  .parallax-group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
   }
-  &.base {
-    transform: none;
+
+  .parallax-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+
+    &.deep {
+      transform: translateZ(-2.5px) scale(3.5);
+    }
+    &.back {
+      transform: translateZ(-0.5px) scale(1.5);
+    }
+    &.base {
+      transform: none;
+    }
   }
 }
