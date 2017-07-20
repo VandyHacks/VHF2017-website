@@ -5,8 +5,8 @@
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective-origin: 100% 100%;
-    -webkit-perspective-origin: 100% 100%;
+    perspective-origin: 100%;
+    -webkit-perspective-origin: 100%;
   }
 
   .parallax-group {
@@ -21,8 +21,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    -webkit-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
 
     &.deep {
       transform: translateZ(-2.5px) scale(3.5);
