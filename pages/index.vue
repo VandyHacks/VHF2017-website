@@ -66,13 +66,6 @@ $break-m: 576px;
 $break-l: 768px;
 $break-xxl: 1600px;
 
-
-
-
-
-
-
-
 /*
 There are offset issues on Chrome desktop, most noticeable at extremely low widths
 Do not attempt to try to fix them, the offsets are fine on mobile where they matter
@@ -135,7 +128,8 @@ $skyline-color: #daeaf2;
   overflow: hidden;
   border-bottom: 50px solid $skyline-color;
   /* Disguise subpixel rounding issues */
-  box-shadow: inset 0px -2.5px $skyline-color;
+  box-shadow: inset 0px -3px $skyline-color, 0 3px $skyline-color;
+  filter: blur(0.4px);
 
   @media (min-width: $break-sm) {
     border-bottom: 30px solid $skyline-color;
@@ -148,6 +142,7 @@ $skyline-color: #daeaf2;
   @media (min-width: $break-l) {
     border-bottom: none;
     box-shadow: none;
+    filter: none;
   }
 }
 
