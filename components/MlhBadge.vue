@@ -9,7 +9,7 @@
     display: block;
     min-width: 50px;
     max-width: 50px;
-    position: fixed;
+    position: absolute;
     right: 15px;
     top: 0;
     width: 10%;
@@ -23,11 +23,6 @@
     @media (min-width: 1200px) {
         max-width: 96px;
         right: 50px;
-    }
-
-    // VSCode has a syntax validation bug for @supports, please ignore
-    @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
-        position: absolute;
     }
 }
 </style>
