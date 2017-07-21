@@ -113,6 +113,7 @@ Do not attempt to try to fix them, the offsets are fine on mobile where they mat
   right: 0;
   margin: 33vh auto 0;
   max-width: 256px;
+  filter: drop-shadow(0 50px 25px rgba(255, 255, 255, 0.66));
 
   @media (min-width: $break-sm) {
     max-width: 360px;
@@ -127,7 +128,7 @@ Do not attempt to try to fix them, the offsets are fine on mobile where they mat
   }
 }
 
-$skyline-color: #daeaf2;
+$skyline-color: #e0eaf5;
 
 .skyline {
   position: absolute;
@@ -138,8 +139,7 @@ $skyline-color: #daeaf2;
   overflow: hidden;
   border-bottom: 50px solid $skyline-color;
   /* Disguise subpixel rounding issues */
-  box-shadow: 0 3px $skyline-color;
-  filter: blur(0.4px);
+  filter: drop-shadow(0 5px $skyline-color);
 
   @media (min-width: $break-sm) {
     border-bottom: 30px solid $skyline-color;
@@ -151,7 +151,6 @@ $skyline-color: #daeaf2;
 
   @media (min-width: $break-l) {
     border-bottom: none;
-    box-shadow: none;
     filter: none;
   }
 }
@@ -184,12 +183,12 @@ $skyline-color: #daeaf2;
 }
 
 .description {
-  background: #253340;
+  background: #223053;
   color: white;
 }
 
 .schedule {
-  background: #626a73;
+  background: #566886;
   color: white;
 }
 </style>
