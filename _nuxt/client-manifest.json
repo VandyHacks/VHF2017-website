@@ -1,7 +1,7 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "0.nuxt.bundle.399cd4a6e2b054247f45.js",
+    "0.nuxt.bundle.70c14b371dd7c7211304.js",
     "img/batman.e07f1a5.svg",
     "img/vandyhacks-text.d9d2ff5.svg",
     "fonts/SofiaProRegular.c15f875.woff",
@@ -10,16 +10,16 @@
     "1.nuxt.bundle.0a78831cc7e3efb4c8fc.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
     "nuxt.bundle.311431ba2c344e179c77.js",
-    "manifest.62f4d355763d4a0e6ab6.js",
+    "manifest.2775ae2f2050bcb2382f.js",
     "index.html"
   ],
   "initial": [
-    "manifest.62f4d355763d4a0e6ab6.js",
+    "manifest.2775ae2f2050bcb2382f.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
     "nuxt.bundle.311431ba2c344e179c77.js"
   ],
   "async": [
-    "0.nuxt.bundle.399cd4a6e2b054247f45.js",
+    "0.nuxt.bundle.70c14b371dd7c7211304.js",
     "1.nuxt.bundle.0a78831cc7e3efb4c8fc.js"
   ],
   "modules": {
