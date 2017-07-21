@@ -12,14 +12,13 @@
 .parallax {
   overflow-y: auto;
   height: inherit;
-    -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 }
 
 // VSCode has a syntax validation bug for @supports, please ignore
 @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
   .parallax {
     perspective: 1px;
-    height: inherit;
     overflow-x: hidden;
     overflow-y: auto;
     perspective-origin: 100%;
