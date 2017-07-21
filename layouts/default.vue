@@ -10,6 +10,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url("~assets/fonts/SofiaProSemiBold.woff2") format("woff2"), url("~assets/fonts/SofiaProSemiBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
   font-family: 'Sofia Pro', sans-serif;
   font-size: 16px;
