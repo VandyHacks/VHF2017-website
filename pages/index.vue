@@ -160,6 +160,7 @@ $skyline-color: #daeaf2;
 
 .page-content {
   top: 100%;
+  background: #fff;
 }
 
 .feature-block {

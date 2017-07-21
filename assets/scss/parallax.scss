@@ -64,7 +64,7 @@ html,
       transform: translateZ(-0.5px) scale(1.5);
     }
     &.base {
-      transform: none;
+      transform: translateZ(0);
       top: auto;
     }
   }
