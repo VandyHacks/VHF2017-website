@@ -137,8 +137,12 @@ $skyline-color: #daeaf2;
   overflow: hidden;
   border-bottom: 50px solid $skyline-color;
   /* Disguise subpixel rounding issues */
-  box-shadow: inset 0px -3px $skyline-color, 0 3px $skyline-color;
+  box-shadow: none;
   filter: blur(0.4px);
+
+  @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
+    box-shadow: inset 0px -3px $skyline-color, 0 3px $skyline-color;
+  }
 
   @media (min-width: $break-sm) {
     border-bottom: 30px solid $skyline-color;
