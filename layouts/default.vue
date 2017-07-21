@@ -21,13 +21,6 @@ html {
   box-sizing: border-box;
 }
 
-body,
-html,
-#__nuxt {
-  height: 100%;
-  overflow: hidden;
-}
-
 *,
 *:before,
 *:after {
