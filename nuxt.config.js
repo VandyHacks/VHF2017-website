@@ -9,7 +9,7 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'The official website for VandyHacks IV, Nashville\'s premiere hackathon' },
       { name: 'theme-color', content: '#253340' },
-      { name: 'written-by', content: 'Yunyu Lin' }
+      { 'written-by': 'Yunyu Lin' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }

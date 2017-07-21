@@ -1,3 +1,14 @@
+.parallax-layer.base {
+  position: relative;
+  top: 100%;
+}
+
+.parallax {
+  overflow-y: auto;
+  height: inherit;
+    -webkit-overflow-scrolling: touch;
+}
+
 // VSCode has a syntax validation bug for @supports, please ignore
 @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
   .parallax {
@@ -35,6 +46,7 @@
     }
     &.base {
       transform: none;
+      top: auto;
     }
   }
 }
