@@ -9,14 +9,14 @@
     "img/skyline.6477e61.svg",
     "1.nuxt.bundle.0a78831cc7e3efb4c8fc.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
-    "nuxt.bundle.bf869b59761687af13fc.js",
-    "manifest.ab3b99733f815bc09095.js",
+    "nuxt.bundle.1839aa57abcc8bde9e66.js",
+    "manifest.776bdc571374583c6600.js",
     "index.html"
   ],
   "initial": [
-    "manifest.ab3b99733f815bc09095.js",
+    "manifest.776bdc571374583c6600.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
-    "nuxt.bundle.bf869b59761687af13fc.js"
+    "nuxt.bundle.1839aa57abcc8bde9e66.js"
   ],
   "async": [
     "0.nuxt.bundle.ab59cfc2e72e08c41cc3.js",
