@@ -1,7 +1,3 @@
-body {
-  -webkit-overflow-scrolling: touch;
-}
-
 body,
 html,
 #__nuxt {
@@ -10,7 +6,7 @@ html,
 
 .parallax-group {
   position: relative;
-  height: inherit;
+  height: 100vh;
   z-index: -1;
 }
 
@@ -22,7 +18,7 @@ html,
 .parallax {
   overflow-x: hidden;
   overflow-y: auto;
-  height: inherit;
+  height: auto;
 }
 
 // VSCode has a syntax validation bug for @supports, please ignore
@@ -37,6 +33,7 @@ html,
     perspective: 1px;
     perspective-origin: 100%;
     -webkit-perspective-origin: 100%;
+    height: inherit;
   }
 
   .parallax-group {
