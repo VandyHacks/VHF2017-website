@@ -7,7 +7,6 @@ html,
 .parallax-group {
   position: relative;
   height: 100vh;
-  z-index: -1;
 }
 
 .parallax-layer.base {
@@ -40,6 +39,7 @@ html,
     position: relative;
     height: inherit;
     transform-style: preserve-3d;
+    z-index: -1;
   }
 
   .parallax-layer {

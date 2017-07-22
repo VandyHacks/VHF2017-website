@@ -76,18 +76,17 @@ $break-m: 576px;
 $break-l: 768px;
 $break-xxl: 1600px;
 
-/*
-There are offset issues on Chrome desktop, most noticeable at extremely low widths
-Do not attempt to try to fix them, the offsets are fine on mobile where they matter
-*/
+// There are offset issues on Chrome desktop, most noticeable at extremely low widths
+// Do not attempt to try to fix them, the offsets are fine on mobile where they matter
 
 .logo {
   position: absolute;
   left: 0;
   right: 0;
   margin: 17.5vh auto 0;
+  z-index: -2;
 
-  /* Responsiveness */
+  // Responsiveness
   width: 290px;
 
   @media (min-width: $break-s) {
@@ -114,6 +113,7 @@ Do not attempt to try to fix them, the offsets are fine on mobile where they mat
   margin: 33vh auto 0;
   max-width: 256px;
   filter: drop-shadow(0 50px 25px rgba(255, 255, 255, 0.66));
+  z-index: -1;
 
   @media (min-width: $break-sm) {
     max-width: 360px;
@@ -138,8 +138,9 @@ $skyline-color: #e0eaf5;
   margin: auto auto 0;
   overflow: hidden;
   border-bottom: 50px solid $skyline-color;
-  /* Disguise subpixel rounding issues */
+  // Disguise subpixel rounding issues
   filter: drop-shadow(0 5px $skyline-color);
+  z-index: -3;
 
   @media (min-width: $break-sm) {
     border-bottom: 30px solid $skyline-color;
