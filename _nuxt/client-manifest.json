@@ -7,21 +7,21 @@
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProRegular.a3e9ad2.woff2",
     "fonts/SofiaProSemiBold.46e68ac.woff",
-    "img/skyline.bc65ecd.svg",
-    "0.nuxt.bundle.424826aac7769d569854.js",
+    "img/skyline.cb43d65.svg",
+    "0.nuxt.bundle.600d7c6d894f763018cd.js",
     "1.nuxt.bundle.8a0067d8d49a91060b65.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
     "nuxt.bundle.ffe9f6859c047ffbaec9.js",
-    "manifest.38b45da03a3d6d309a94.js",
+    "manifest.aee03b1bbdfde06d8421.js",
     "index.html"
   ],
   "initial": [
-    "manifest.38b45da03a3d6d309a94.js",
+    "manifest.aee03b1bbdfde06d8421.js",
     "vendor.bundle.9d57d8937d4512c78be8.js",
     "nuxt.bundle.ffe9f6859c047ffbaec9.js"
   ],
   "async": [
-    "0.nuxt.bundle.424826aac7769d569854.js",
+    "0.nuxt.bundle.600d7c6d894f763018cd.js",
     "1.nuxt.bundle.8a0067d8d49a91060b65.js"
   ],
   "modules": {
