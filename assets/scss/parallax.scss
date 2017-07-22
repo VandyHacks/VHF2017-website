@@ -9,9 +9,22 @@ html,
   height: 100vh;
 }
 
-.parallax-layer.base {
-  position: static;
-  z-index: 1;
+.parallax-layer {
+  &.deepest > :first-child {
+    z-index: -3;
+  }
+
+  &.deep > :first-child {
+    z-index: -2;
+  }
+
+  &.back > :first-child {
+    z-index: -1;
+  }
+
+  &.base {
+    position: static;
+  }
 }
 
 .parallax {
@@ -39,7 +52,6 @@ html,
     position: relative;
     height: inherit;
     transform-style: preserve-3d;
-    z-index: -1;
   }
 
   .parallax-layer {

@@ -84,7 +84,6 @@ $break-xxl: 1600px;
   left: 0;
   right: 0;
   margin: 17.5vh auto 0;
-  z-index: -2;
 
   // Responsiveness
   width: 290px;
@@ -113,7 +112,6 @@ $break-xxl: 1600px;
   margin: 33vh auto 0;
   max-width: 256px;
   filter: drop-shadow(0 50px 25px rgba(255, 255, 255, 0.66));
-  z-index: -1;
 
   @media (min-width: $break-sm) {
     max-width: 360px;
@@ -140,7 +138,6 @@ $skyline-color: #e0eaf5;
   border-bottom: 50px solid $skyline-color;
   // Disguise subpixel rounding issues
   filter: drop-shadow(0 5px $skyline-color);
-  z-index: -3;
 
   @media (min-width: $break-sm) {
     border-bottom: 30px solid $skyline-color;
