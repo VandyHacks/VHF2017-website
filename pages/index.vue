@@ -126,7 +126,7 @@ $break-xxl: 1600px;
   }
 }
 
-$skyline-color: #e0eaf5;
+$skyline-color: #e0e7f5;
 
 .skyline {
   position: absolute;
@@ -181,12 +181,12 @@ $skyline-color: #e0eaf5;
 }
 
 .description {
-  background: #223053;
+  background: #222a53;
   color: white;
 }
 
 .schedule {
-  background: #566886;
+  background: #565f86;
   color: white;
 }
 </style>
