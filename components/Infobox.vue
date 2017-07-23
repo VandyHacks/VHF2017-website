@@ -9,7 +9,7 @@
 <style lang="scss" scoped>
 .infobox {
     margin-top: 10px;
-    background: #e2e5e9;
+    background: #e2e3e9;
     padding: 25px;
 }
 </style>
