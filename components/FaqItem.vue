@@ -4,12 +4,17 @@
 }
 
 .question {
-  cursor: pointer
+  cursor: pointer;
+  display: flex;
+}
+
+.title {
+  display: inline-block;
 }
 
 .answer {
   margin-top: 5px;
-  margin-left: 18px;
+  margin-left: 19px;
 }
 
 .slide-fade-enter-active,
@@ -34,6 +39,12 @@
   transform: scaleY(1);
 }
 
+.arrow-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -43,19 +54,24 @@
 
   &.down {
     transform: rotate(-45deg);
-    margin: 0 5px 1px 0;
+    margin: 0 0 .5px;
   }
 
   &.up {
     transform: rotate(45deg);
-    margin: 0 5px 3px 0;
+    margin: 0 0 3px;
   }
 }
 </style>
 
 <template>
   <div class="faq-item">
-    <h4 class="question" @click="open = !open"><i class="arrow" :class="arrowDirection"></i> {{ title }}</h4>
+    <div class="question" @click="open = !open">
+      <div class="arrow-wrapper">
+        <i class="arrow" :class="arrowDirection"></i>
+      </div>
+      <h4 class="title">{{ title }}</h4>
+    </div>
     <transition name="slide-fade">
       <div v-if="open" class="answer">
         <slot/>
