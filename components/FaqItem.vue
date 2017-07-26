@@ -14,8 +14,7 @@
 }
 
 .answer {
-  margin-top: 5px;
-  margin-left: 19px;
+  margin-left: 22px;
 }
 
 .slide-fade-enter-active,
