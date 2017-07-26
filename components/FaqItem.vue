@@ -28,11 +28,29 @@
 .slide-fade-enter-to {
   transform: scaleY(1);
 }
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: all 0.3s;
+
+  &.down {
+    transform: rotate(-45deg);
+    margin: 0 5px 1px 0;
+  }
+
+  &.up {
+    transform: rotate(45deg);
+    margin: 0 5px 3px 0;
+  }
+}
 </style>
 
 <template>
   <div class="faq-item">
-    <h4 class="question" @click="open = !open">{{ title }}</h4>
+    <h4 class="question" @click="open = !open"><i class="arrow" :class="arrowDirection"></i> {{ title }}</h4>
     <transition name="slide-fade">
       <div v-if="open">
         <slot/>
@@ -49,6 +67,11 @@ export default {
   data() {
     return {
       open: false
+    }
+  },
+  computed: {
+    arrowDirection() {
+      return this.open ? 'up' : 'down'
     }
   }
 }
