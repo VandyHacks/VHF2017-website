@@ -41,24 +41,16 @@
 }
 
 .arrow-wrapper {
-  position: relative;
-  display: inline-block;
   margin-right: 10px;
 }
 
 .arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transition: all 0.25s;
+  height: 26px;
+  width: 12px;
+  transition: transform 0.25s;
 
-  &.down {
-    transform: rotate(-45deg);
-  }
-
-  &.up {
-    transform: rotate(45deg);
+  &.right {
+    transform: rotate(90deg);
   }
 }
 </style>
@@ -67,7 +59,7 @@
   <div class="faq-item">
     <div class="question" @click="open = !open">
       <div class="arrow-wrapper">
-        <i class="arrow" :class="arrowDirection"></i>
+        <img class="arrow" :class="arrowDirection" src="~assets/img/arrow.svg"/>
       </div>
       <h4 class="title">{{ title }}</h4>
     </div>
@@ -91,7 +83,7 @@ export default {
   },
   computed: {
     arrowDirection() {
-      return this.open ? 'up' : 'down'
+      return this.open ? 'right' : 'down'
     }
   }
 }
