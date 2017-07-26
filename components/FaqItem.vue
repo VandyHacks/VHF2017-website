@@ -7,6 +7,11 @@
   cursor: pointer
 }
 
+.answer {
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
 .slide-fade-enter-active,
 .slide-fade-leave-active {
   transform-origin: top;
@@ -34,7 +39,7 @@
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-  transition: all 0.3s;
+  transition: all 0.25s;
 
   &.down {
     transform: rotate(-45deg);
@@ -52,7 +57,7 @@
   <div class="faq-item">
     <h4 class="question" @click="open = !open"><i class="arrow" :class="arrowDirection"></i> {{ title }}</h4>
     <transition name="slide-fade">
-      <div v-if="open">
+      <div v-if="open" class="answer">
         <slot/>
       </div>
     </transition>
