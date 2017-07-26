@@ -10,6 +10,7 @@
 
 .title {
   display: inline-block;
+  line-height: 24px;
 }
 
 .answer {
@@ -54,12 +55,10 @@
 
   &.down {
     transform: rotate(-45deg);
-    margin: 0 0 0;
   }
 
   &.up {
     transform: rotate(45deg);
-    margin: 0 0 2px;
   }
 }
 </style>
