@@ -45,8 +45,19 @@
         <div class="text-contents">
           <h1>FAQ</h1>
           <separator/>
-          <p>
-            As spoiled dolphin jeez neglectfully after less more and less filled antagonistically far and examined while far quail darn far saucily alert circa rabbit or noticeable according wow wherever cuffed alas but creepy congenially the one alertly dwelled scorpion fussy mawkish sordid much far circa next one darn towards more or irrespective antelope simply alas as the gorilla hotly forward along up gibbered where more excepting across boundless massive jeez frowned some tangible mammoth far between far that. Sapien orci elementum commodo etiam eget phasellus mi semper ultrices, ultricies hendrerit non duis aenean morbi aliquet condimentum ipsum ut, himenaeos maecenas nunc et imperdiet conubia ut euismod nec morbi donec vulputate odio molestie tempor consectetur justo mauris velit et, class risus magna laoreet maecenas ut sed accumsan per rutrum, pellentesque iaculis mi pharetra interdum accumsan tellus porttitor lectus amet quisque eros volutpat diam. Curabitur luctus porta himenaeos dictum a amet magna leo himenaeos erat, platea nam imperdiet nisl etiam eros lorem dictumst semper molestie sem tempus turpis augue erat tellus massa dui arcu, tortor ornare ligula augue lorem litora fermentum neque, cras curae a habitant gravida fermentum ligula mattis aenean pulvinar cubilia est tellus risus integer curabitur cubilia nostra interdum, habitant platea nam iaculis sollicitudin aliquet convallis tellus habitant, eu purus ut velit nam id lacinia accumsan porta. Sapien orci elementum commodo etiam eget phasellus mi semper ultrices, ultricies hendrerit non duis aenean morbi aliquet condimentum ipsum ut, himenaeos maecenas nunc et imperdiet conubia ut euismod nec morbi donec vulputate odio molestie tempor consectetur justo mauris velit et, class risus magna laoreet maecenas ut sed accumsan per rutrum, pellentesque iaculis mi pharetra interdum accumsan tellus porttitor lectus amet quisque eros volutpat diam.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <faqitem title="I have no idea how to code! What if I've never been to a hackathon?">
+                Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
+              </faqitem>
+              <faqitem title="Who can apply?">
+Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.              </faqitem>
+            </div>
+            <div class="col-md-6">
+              <faqitem title="Will there be parking available for attendees?">
+Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it here.              </faqitem>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -57,12 +68,14 @@
 import MlhBadge from '~components/MlhBadge.vue'
 import Separator from '~components/Separator.vue'
 import Infobox from '~components/Infobox.vue'
+import FaqItem from '~components/FaqItem.vue'
 
 export default {
   components: {
     mlhbadge: MlhBadge,
     separator: Separator,
-    infobox: Infobox
+    infobox: Infobox,
+    faqitem: FaqItem
   }
 }
 </script>
@@ -78,14 +91,11 @@ $break-xxl: 1600px;
 
 // There are offset issues on Chrome desktop, most noticeable at extremely low widths
 // Do not attempt to try to fix them, the offsets are fine on mobile where they matter
-
 .logo {
   position: absolute;
   left: 0;
   right: 0;
-  margin: 17.5vh auto 0;
-
-  // Responsiveness
+  margin: 17.5vh auto 0; // Responsiveness
   width: 290px;
 
   @media (min-width: $break-s) {
@@ -135,8 +145,7 @@ $skyline-color: #e0e7f5;
   bottom: 0;
   margin: auto auto 0;
   overflow: hidden;
-  border-bottom: 50px solid $skyline-color;
-  // Disguise subpixel rounding issues
+  border-bottom: 50px solid $skyline-color; // Disguise subpixel rounding issues
   filter: drop-shadow(0 5px $skyline-color);
 
   @media (min-width: $break-sm) {
