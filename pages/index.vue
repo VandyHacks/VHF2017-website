@@ -46,15 +46,29 @@
           <separator/>
           <div class="row">
             <div class="col-md-6">
+              <h3 class="faq-header">General</h3>
               <faqitem title="I have no idea how to code! What if I've never been to a hackathon?">
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
+              <h3 class="faq-header">Applying</h3>
               <faqitem title="Who can apply?">
-                Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement. </faqitem>
+                Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
+              </faqitem>
+              <faqitem title="How does registration work?">
+                Applications will open soon on vandyhacks.orgVandyHacks.org. Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
+                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>! </faqitem>
             </div>
             <div class="col-md-6">
+              <h3 class="faq-header">Logistics</h3>
+              <faqitem title="How do I get there?">
+                Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants.
+              </faqitem>
+              <faqitem title="Will travel reimbursements be provided?">
+                Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis.
+              </faqitem>
               <faqitem title="Will there be parking available for attendees?">
-                Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it here. </faqitem>
+                Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it here.
+              </faqitem>
             </div>
           </div>
         </div>
@@ -193,6 +207,10 @@ $skyline-color: #e0e7f5;
       font-size: 36px;
     }
   }
+}
+
+.faq-header {
+  text-decoration: underline;
 }
 
 .description {
