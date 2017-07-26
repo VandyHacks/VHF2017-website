@@ -54,12 +54,12 @@
 
   &.down {
     transform: rotate(-45deg);
-    margin: 0 0 .5px;
+    margin: 0 0 0;
   }
 
   &.up {
     transform: rotate(45deg);
-    margin: 0 0 3px;
+    margin: 0 0 2px;
   }
 }
 </style>
