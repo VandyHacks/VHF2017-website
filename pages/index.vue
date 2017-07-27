@@ -88,6 +88,7 @@
             </div>
           </div>
         </div>
+        <img src="~assets/img/desk.svg" alt="?" />
       </div>
       <div class="sponsors feature-block">
         <div class="text-contents">
@@ -204,7 +205,6 @@ $skyline-color: #e0e7f5;
 }
 
 .feature-block {
-  padding: 36px;
   background: #fff;
 
   @media (min-width: $break-l) {
@@ -216,6 +216,7 @@ $skyline-color: #e0e7f5;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 36px;
 
   h1 {
     text-align: center;
