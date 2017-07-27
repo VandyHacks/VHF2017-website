@@ -27,7 +27,7 @@
 }
 
 .slide-fade-leave-active {
-  transition: all .15s;
+  transition: all .2s;
 }
 
 .slide-fade-enter,
