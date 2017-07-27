@@ -6,6 +6,7 @@
 .question {
   cursor: pointer;
   display: flex;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .title {
@@ -60,7 +61,7 @@
   <div class="faq-item">
     <div class="question" @click="open = !open">
       <div class="arrow-wrapper">
-        <img class="arrow" :class="arrowDirection" src="~assets/img/arrow.svg"/>
+        <img class="arrow" :class="arrowDirection" src="~assets/img/arrow.svg" />
       </div>
       <h4 class="title">{{ title }}</h4>
     </div>
