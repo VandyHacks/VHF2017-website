@@ -227,8 +227,13 @@ $skyline-color: #e0e7f5;
 }
 
 .faq {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: -5px;
+  text-align: center;
+
+  .text-contents {
+    text-align: left;
+    padding-bottom: 15px;
+  }
 }
 
 .faq-header {
@@ -238,8 +243,8 @@ $skyline-color: #e0e7f5;
 
 .faq-desk {
   max-width: 500px;
-  align-self: flex-end;
-  margin: 0 auto;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .description {
