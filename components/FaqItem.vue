@@ -23,20 +23,22 @@
 }
 
 .slide-fade-enter-active {
-  transition: transform .25s;
+  transition: all .25s ease-out;
 }
 
 .slide-fade-leave-active {
-  transition: transform .1s;
+  transition: all .15s;
 }
 
 .slide-fade-enter,
 .slide-fade-leave-to {
-  transform: scaleY(0);
+  transform: translateY(-12px);
+  opacity: 0;
 }
 
 .slide-fade-enter-to {
-  transform: scaleY(1);
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .arrow-wrapper {
