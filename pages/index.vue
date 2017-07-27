@@ -88,7 +88,7 @@
             </div>
           </div>
         </div>
-        <img src="~assets/img/desk.svg" alt="?" />
+        <img class="faq-desk" src="~assets/img/desk.svg" alt="?" />
       </div>
       <div class="sponsors feature-block">
         <div class="text-contents">
@@ -206,10 +206,6 @@ $skyline-color: #e0e7f5;
 
 .feature-block {
   background: #fff;
-
-  @media (min-width: $break-l) {
-    padding: 60px;
-  }
 }
 
 .text-contents {
@@ -217,6 +213,10 @@ $skyline-color: #e0e7f5;
   margin-left: auto;
   margin-right: auto;
   padding: 36px;
+
+  @media (min-width: $break-l) {
+    padding: 60px;
+  }
 
   h1 {
     text-align: center;
@@ -226,9 +226,20 @@ $skyline-color: #e0e7f5;
   }
 }
 
+.faq {
+  display: flex;
+  flex-direction: column;
+}
+
 .faq-header {
   text-decoration: underline;
   font-weight: normal;
+}
+
+.faq-desk {
+  max-width: 500px;
+  align-self: flex-end;
+  margin: 0 auto;
 }
 
 .description {
