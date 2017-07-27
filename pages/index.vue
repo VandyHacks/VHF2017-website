@@ -57,8 +57,6 @@
               <faqitem title="How does registration work?">
                 Applications will open soon on vandyhacks.orgVandyHacks.org. Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
                 <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>! </faqitem>
-            </div>
-            <div class="col-md-6">
               <h3 class="faq-header">Logistics</h3>
               <faqitem title="How do I get there?">
                 Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants.
@@ -68,6 +66,24 @@
               </faqitem>
               <faqitem title="Will there be parking available for attendees?">
                 Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it here.
+              </faqitem>
+            </div>
+            <div class="col-md-6">
+              <h3 class="faq-header">Event</h3>
+              <faqitem title="What should I bring?">
+                Be sure to bring your photo ID, laptop, phone, chargers, a change of clothes, toiletries, and any other devices you want to use. A government-issued ID is required to rent any hardware.
+              </faqitem>
+              <faqitem title="Where will I sleep?">
+                We will have designated quiet rooms, so bring a blanket and pillow!
+              </faqitem>
+              <faqitem title="What will I eat?">
+                Meals will be provided throughout the event, starting with dinner on Friday and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Be sure to designate any allergies or dietary restrictions on your application.
+              </faqitem>
+              <faqitem title="How are teams formed? Do I need a team?">
+                Teams are limited to four people in size. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates.
+              </faqitem>
+              <faqitem title="Will there be other activities besides hacking?">
+                Of course! This year, our hacker experience team has planned a bunch of fun events for attendees to relax. Stay tuned for more info!
               </faqitem>
             </div>
           </div>
