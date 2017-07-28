@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "flexboxgrid": "^6.3.1",
-    "nuxt": "latest"
+    "nuxt": "^1.0.0-rc3"
   },
   "scripts": {
     "dev": "nuxt",

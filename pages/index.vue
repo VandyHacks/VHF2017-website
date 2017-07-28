@@ -102,10 +102,10 @@
 </template>
 
 <script>
-import MlhBadge from '~components/MlhBadge.vue'
-import Separator from '~components/Separator.vue'
-import Infobox from '~components/Infobox.vue'
-import FaqItem from '~components/FaqItem.vue'
+import MlhBadge from '~/components/MlhBadge.vue'
+import Separator from '~/components/Separator.vue'
+import Infobox from '~/components/Infobox.vue'
+import FaqItem from '~/components/FaqItem.vue'
 
 export default {
   components: {
