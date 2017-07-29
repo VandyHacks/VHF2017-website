@@ -93,7 +93,6 @@
             </div>
           </div>
         </div>
-        <img class="faq-desk" src="~assets/img/desk.svg" alt="?" />
       </div>
       <div class="sponsors feature-block">
         <div class="text-contents">
@@ -291,7 +290,7 @@ $skyline-color: #e0e7f5;
 
   .text-contents {
     text-align: left;
-    padding-bottom: 15px;
+    // padding-bottom: 15px;
   }
 }
 
