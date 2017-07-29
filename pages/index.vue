@@ -173,14 +173,14 @@ $break-xxl: 1600px;
 .apply-btn {
   $btn-bg: #222a53;
   $btn-font-size: 16px;
-  $btn-padding-base: 15px;
-  $btn-padding-horiz-scale: 3;
+  $btn-padding-v: 15px;
+  $btn-padding-h: 3 * $btn-padding-v;
 
   color: white;
   background-color: $btn-bg;
   border-radius: 2px;
   text-decoration: none;
-  padding: $btn-padding-base $btn-padding-horiz-scale * $btn-padding-base;
+  padding: $btn-padding-v $btn-padding-h;
   font-size: $btn-font-size;
   font-weight: bold;
   transition: all 0.25s;
@@ -196,7 +196,7 @@ $break-xxl: 1600px;
 
     background-color: darken($btn-bg, 10%);
     font-size: $btn-font-size * $size-factor;
-    padding: $size-factor * $btn-padding-base $btn-padding-horiz-scale * $size-factor * $btn-padding-base
+    padding: $size-factor * $btn-padding-v $size-factor * $btn-padding-h;
   }
 }
 
