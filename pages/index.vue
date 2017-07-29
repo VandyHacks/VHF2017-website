@@ -159,7 +159,15 @@ $break-xxl: 1600px;
 
 .actions {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 30px;
+}
+
+.apply-btn {
+  color: white;
+  background-color: #222a53;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 15px 30px;
 }
 
 .batman-building {
