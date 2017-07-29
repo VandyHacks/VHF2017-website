@@ -192,8 +192,8 @@ $break-xxl: 1600px;
 
   &:active {
     background-color: darken($btn-bg, 10%);
-    font-size: $btn-font-size * 0.9;
-    padding: 0.9*$btn-padding-base 2.7*$btn-padding-base
+    font-size: $btn-font-size * 0.93;
+    padding: 0.93*$btn-padding-base 2.79*$btn-padding-base
   }
 }
 
