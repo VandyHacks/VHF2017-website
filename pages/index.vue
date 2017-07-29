@@ -159,18 +159,14 @@ $break-xxl: 1600px;
 
 .actions {
   text-align: center;
-  margin-top: 22.5px;
-
-  @media (min-width: $break-sm) {
-    margin-top: 25px;
-  }
+  margin-top: 40px;
 
   @media (min-width: $break-m) {
-    margin-top: 30px;
+    margin-top: 45px;
   }
 
   @media (min-width: $break-l) {
-    margin-top: 32.5px;
+    margin-top: 50px;
   }
 }
 
