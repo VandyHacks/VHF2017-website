@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="parallax-layer back">
-        <img class="batman-building" alt="AT&T Building" src="~assets/img/batman.svg" />
+        <batmanbuilding/>
       </div>
     </div>
     <div class="parallax-layer base page-content">
@@ -111,24 +111,23 @@ import Separator from '~/components/Separator.vue'
 import Infobox from '~/components/Infobox.vue'
 import FaqItem from '~/components/FaqItem.vue'
 
+// Embedded SVG
+import BatmanBuilding from '~/components/BatmanBuilding.vue'
+
 export default {
   components: {
     mlhbadge: MlhBadge,
     separator: Separator,
     infobox: Infobox,
-    faqitem: FaqItem
+    faqitem: FaqItem,
+    batmanbuilding: BatmanBuilding
   }
 }
 </script>
 
 <style lang="scss">
 @import '~assets/scss/parallax.scss';
-
-$break-s: 360px;
-$break-sm: 432px;
-$break-m: 576px;
-$break-l: 768px;
-$break-xxl: 1600px;
+@import '~assets/scss/breakpoints.scss';
 
 // There are offset issues on Chrome desktop, most noticeable at extremely low widths
 // Do not attempt to try to fix them, the offsets are fine on mobile where they matter
@@ -196,27 +195,6 @@ $break-xxl: 1600px;
     background-color: darken($btn-bg, 10%);
     font-size: $btn-font-size * $size-factor;
     padding: $size-factor * $btn-padding-v $size-factor * $btn-padding-h;
-  }
-}
-
-.batman-building {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 35vh auto 0;
-  max-width: 256px;
-  filter: drop-shadow(0 50px 25px rgba(255, 255, 255, 0.66));
-
-  @media (min-width: $break-sm) {
-    max-width: 360px;
-  }
-
-  @media (min-width: $break-m) {
-    max-width: 400px;
-  }
-
-  @media (min-width: $break-xxl) {
-    max-width: 512px;
   }
 }
 

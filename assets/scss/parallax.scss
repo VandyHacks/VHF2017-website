@@ -24,7 +24,6 @@ html,
 
   &.back > :first-child {
     z-index: -1;
-    pointer-events: none; // TODO: use inline svg
   }
 
   &.base {
