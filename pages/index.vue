@@ -8,8 +8,12 @@
         <img class="skyline" alt="Nashville Skyline" src="~assets/img/skyline.svg" />
       </div>
       <div class="parallax-layer deep">
-        <img class ="logo" alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
-        <a class="apply-btn" href="/apply">Apply</a>
+        <div class="logo">
+          <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
+          <div class="actions">
+            <a class="apply-btn" href="/apply">Apply</a>
+          </div>
+        </div>
       </div>
       <div class="parallax-layer back">
         <img class="batman-building" alt="AT&T Building" src="~assets/img/batman.svg" />
@@ -151,13 +155,6 @@ $break-xxl: 1600px;
   @media (min-width: $break-l) {
     width: 635px;
   }
-}
-
-.apply-btn {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 35vh auto 0; // Responsiveness
 }
 
 .batman-building {
