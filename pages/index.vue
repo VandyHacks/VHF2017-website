@@ -159,7 +159,15 @@ $break-xxl: 1600px;
 
 .actions {
   text-align: center;
-  padding-top: 30px;
+  margin-top: 22.5px;
+
+  @media (min-width: $break-sm) {
+    margin-top: 25px;
+  }
+
+  @media (min-width: $break-m) {
+    margin-top: 30px;
+  }
 }
 
 .apply-btn {
