@@ -132,7 +132,7 @@ $break-xxl: 1600px;
   position: absolute;
   left: 0;
   right: 0;
-  margin: 17.5vh auto 0; // Responsiveness
+  margin: 17vh auto 0; // Responsiveness
   width: 290px;
 
   @media (min-width: $break-s) {
