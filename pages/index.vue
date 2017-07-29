@@ -172,12 +172,15 @@ $break-xxl: 1600px;
 
 .apply-btn {
   $btn-bg: #222a53;
+  $btn-font-size: 16px;
+  $btn-padding-base: 15px;
 
   color: white;
   background-color: $btn-bg;
   border-radius: 2px;
   text-decoration: none;
-  padding: 15px 45px;
+  padding: $btn-padding-base 3*$btn-padding-base;
+  font-size: $btn-font-size;
   font-weight: bold;
   transition: all 0.25s;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -189,6 +192,8 @@ $break-xxl: 1600px;
 
   &:active {
     background-color: darken($btn-bg, 10%);
+    font-size: $btn-font-size * 0.9;
+    padding: 0.9*$btn-padding-base 2.7*$btn-padding-base
   }
 }
 
