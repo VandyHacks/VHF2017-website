@@ -174,12 +174,13 @@ $break-xxl: 1600px;
   $btn-bg: #222a53;
   $btn-font-size: 16px;
   $btn-padding-base: 15px;
+  $btn-padding-horiz-scale: 3;
 
   color: white;
   background-color: $btn-bg;
   border-radius: 2px;
   text-decoration: none;
-  padding: $btn-padding-base 3*$btn-padding-base;
+  padding: $btn-padding-base $btn-padding-horiz-scale * $btn-padding-base;
   font-size: $btn-font-size;
   font-weight: bold;
   transition: all 0.25s;
@@ -191,9 +192,11 @@ $break-xxl: 1600px;
   }
 
   &:active {
+    $size-factor: 0.93;
+
     background-color: darken($btn-bg, 10%);
-    font-size: $btn-font-size * 0.93;
-    padding: 0.93*$btn-padding-base 2.79*$btn-padding-base
+    font-size: $btn-font-size * $size-factor;
+    padding: $size-factor * $btn-padding-base $btn-padding-horiz-scale * $size-factor * $btn-padding-base
   }
 }
 
