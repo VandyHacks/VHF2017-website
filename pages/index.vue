@@ -184,6 +184,7 @@ $break-xxl: 1600px;
   padding: 15px 45px;
   font-weight: bold;
   transition: all 0.25s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   &:hover,
   &:focus {
