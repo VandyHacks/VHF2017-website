@@ -175,12 +175,24 @@ $break-xxl: 1600px;
 }
 
 .apply-btn {
+  $btn-bg: #222a53;
+
   color: white;
-  background-color: #222a53;
+  background-color: $btn-bg;
   border-radius: 2px;
   text-decoration: none;
   padding: 15px 45px;
   font-weight: bold;
+  transition: all 0.25s;
+
+  &:hover,
+  &:focus {
+    background-color: #394574;
+  }
+
+  &:active {
+    background-color: darken($btn-bg, 10%);
+  }
 }
 
 .batman-building {
