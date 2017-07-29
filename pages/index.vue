@@ -183,7 +183,7 @@ $break-xxl: 1600px;
   padding: $btn-padding-v $btn-padding-h;
   font-size: $btn-font-size;
   font-weight: bold;
-  transition: all 0.25s;
+  transition: all 0.15s linear;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   &:hover,
