@@ -132,7 +132,7 @@ $break-xxl: 1600px;
   position: absolute;
   left: 0;
   right: 0;
-  margin: 17vh auto 0; // Responsiveness
+  margin: 16.66vh auto 0; // Responsiveness
   width: 290px;
 
   @media (min-width: $break-s) {
@@ -156,7 +156,7 @@ $break-xxl: 1600px;
   position: absolute;
   left: 0;
   right: 0;
-  margin: 33vh auto 0;
+  margin: 35vh auto 0;
   max-width: 256px;
   filter: drop-shadow(0 50px 25px rgba(255, 255, 255, 0.66));
 
