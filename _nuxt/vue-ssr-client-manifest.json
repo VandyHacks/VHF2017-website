@@ -9,26 +9,26 @@
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProSemiBold.85ed71d.woff2",
     "fonts/SofiaProSemiBold.46e68ac.woff",
-    "0.nuxt.bundle.eaedd3e7bd665be4f69b.js",
+    "0.nuxt.bundle.81b53d059a61aaa43005.js",
     "1.nuxt.bundle.42e7d37b8bb883b25f84.js",
     "img/skyline.b9a11d4.svg",
     "nuxt.bundle.5a3f52db8ecec1dc3301.js",
-    "manifest.e202d3826aacb2208916.js",
-    "0.nuxt.bundle.eaedd3e7bd665be4f69b.js.map",
+    "manifest.ac531cb092b780d4ae03.js",
+    "0.nuxt.bundle.81b53d059a61aaa43005.js.map",
     "1.nuxt.bundle.42e7d37b8bb883b25f84.js.map",
     "vendor.bundle.976eb72d786078b1fca9.js.map",
     "nuxt.bundle.5a3f52db8ecec1dc3301.js.map",
-    "manifest.e202d3826aacb2208916.js.map",
+    "manifest.ac531cb092b780d4ae03.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.e202d3826aacb2208916.js",
+    "manifest.ac531cb092b780d4ae03.js",
     "vendor.bundle.976eb72d786078b1fca9.js",
     "nuxt.bundle.5a3f52db8ecec1dc3301.js"
   ],
   "async": [
-    "0.nuxt.bundle.eaedd3e7bd665be4f69b.js",
+    "0.nuxt.bundle.81b53d059a61aaa43005.js",
     "1.nuxt.bundle.42e7d37b8bb883b25f84.js"
   ],
   "modules": {
