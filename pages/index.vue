@@ -157,6 +157,11 @@ $break-xxl: 1600px;
   }
 }
 
+.actions {
+  text-align: center;
+  padding-top: 15px;
+}
+
 .batman-building {
   position: absolute;
   left: 0;
