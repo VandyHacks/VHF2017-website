@@ -45,7 +45,7 @@
           <h1>FAQ</h1>
           <separator/>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
               <faqitem title="I have no idea how to code! What if I've never been to a hackathon?">
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
@@ -68,7 +68,7 @@
                 Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it here.
               </faqitem>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 faq-col">
               <h3 class="faq-header">Event</h3>
               <faqitem title="What should I bring?">
                 Be sure to bring your photo ID, laptop, phone, chargers, a change of clothes, toiletries, and any other devices you want to use. A government-issued ID is required to rent any hardware.
@@ -226,6 +226,17 @@ $skyline-color: #e0e7f5;
   }
 }
 
+// Content sections
+.description {
+  background: #222a53;
+  color: white;
+}
+
+.schedule {
+  background: #565f86;
+  color: white;
+}
+
 .faq {
   margin-bottom: -5px;
   text-align: center;
@@ -247,14 +258,10 @@ $skyline-color: #e0e7f5;
   margin-right: 30px;
 }
 
-.description {
-  background: #222a53;
-  color: white;
-}
-
-.schedule {
-  background: #565f86;
-  color: white;
+@media only screen and (min-width: 64em) {
+  .faq-col:last-child {
+    padding-left: 30px;
+  }
 }
 
 .sponsors {
