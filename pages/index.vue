@@ -168,6 +168,10 @@ $break-xxl: 1600px;
   @media (min-width: $break-m) {
     margin-top: 30px;
   }
+
+  @media (min-width: $break-l) {
+    margin-top: 32.5px;
+  }
 }
 
 .apply-btn {
@@ -175,7 +179,8 @@ $break-xxl: 1600px;
   background-color: #222a53;
   border-radius: 2px;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 15px 45px;
+  font-weight: bold;
 }
 
 .batman-building {
