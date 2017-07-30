@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <a class="apply-btn" href="/apply">Apply</a>
+            <a ontouchstart="" class="apply-btn" href="/apply">Apply</a>
           </div>
         </div>
       </div>
