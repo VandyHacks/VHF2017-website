@@ -15,19 +15,20 @@ html,
   }
 
   &.deepest > :first-child {
-    z-index: -3;
+    z-index: 0;
   }
 
   &.deep > :first-child {
-    z-index: -2;
+    z-index: 1;
   }
 
   &.back > :first-child {
-    z-index: -1;
+    z-index: 2;
   }
 
   &.base {
-    position: static;
+    position: relative;
+    z-index: 3;
   }
 }
 
