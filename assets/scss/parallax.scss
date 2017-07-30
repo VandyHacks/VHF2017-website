@@ -40,8 +40,7 @@ html,
 
 // VSCode has a syntax validation bug for @supports, please ignore
 // Actual parallax styles, will not activate on iOS or Edge
-// Disabled on Firefox as well due to https://bugzilla.mozilla.org/show_bug.cgi?id=1385710
-@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch)) and (not (-ms-ime-align: auto)) and (not (-moz-appearance: meterbar))) {
+@supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch)) and (not (-ms-ime-align: auto))) {
   body,
   html,
   #__nuxt {
