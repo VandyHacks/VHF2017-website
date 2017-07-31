@@ -176,7 +176,7 @@ export default {
 
   color: white;
   background-color: $btn-bg;
-  border-radius: 2px;
+  border-radius: 3px;
   text-decoration: none;
   padding: $btn-padding-v $btn-padding-h;
   font-size: $btn-font-size;
