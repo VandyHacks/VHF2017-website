@@ -193,8 +193,8 @@ export default {
     $size-factor: 0.93;
 
     background-color: darken($btn-bg, 10%);
-    font-size: $btn-font-size * $size-factor;
-    padding: $size-factor * $btn-padding-v $size-factor * $btn-padding-h;
+    font-size: round($btn-font-size * $size-factor);
+    padding: round($size-factor * $btn-padding-v) round($size-factor * $btn-padding-h);
   }
 }
 
