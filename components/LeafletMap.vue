@@ -13,7 +13,7 @@
 </style>
 
 <template>
-  <div class="col-md-6 map-col">
+  <div :class="rootClass" class="map-col">
     <div class="map" ref="mapEl">
     </div>
   </div>
@@ -23,7 +23,11 @@
 export default {
   props: {
     center: Array,
-    zoom: Number
+    zoom: Number,
+    columns: {
+      type: Number,
+      default: 6
+    }
   },
   mounted() {
     if (process.browser) {
@@ -44,6 +48,11 @@ export default {
   beforeDestroy() {
     if (this.map) {
       this.map.remove()
+    }
+  },
+  computed: {
+    rootClass() {
+      return `col-md-${this.columns}`
     }
   }
 }
