@@ -27,36 +27,7 @@
           <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks IV! From October 20-22, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship. For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of major or background.</p>
         </div>
       </div>
-      <!--
-      <div class="feature-new feature-block">
-        <div class="text-contents">
-          <h1>What's new</h1>
-          <separator/>
-          <div class="row">
-            <infobox>Certain vengeful hey scorpion beguiling recast calmly outside across piranha well this fumbling besides and that prudently splashed some hellish jeez away abusive weak this gloated oh crud hence unihibitedly the fluid far more a nutria one ducked darn that against met wow ireful victorious constitutionally a much seagull recast came less a stared mocking more bowed.</infobox>
-            <infobox>A goodness bawdy shuffled the gradually unwound selfish oh brilliant far dove darn whooped much goat far less rode blubbered wailed house the gazelle gosh as opposite overpaid before and and far and flustered since oriole attentively rethought hamster eagle aside jeez this a smirked as nauseatingly anteater underneath tenaciously since lynx well assisted depending.</infobox>
-            <infobox>Partook amazingly arose greyhound a unobtrusive wombat mastodon hugged goodness regardless much elusive but thus wild dear opaque more more by a a more rashly however frenetic goodness wow gosh hyena where plankton much indefatigably far a that jeez toward goodness as hello far raccoon temperately overshot wherever abidingly goodness hyena hung.</infobox>
-          </div>
-        </div>
-      </div>
-      -->
-      <div class="schedule feature-block">
-        <div class="text-contents">
-          <h1>Logistics</h1>
-          <separator/>
-          <div class="row">
-            <div class="col-md-6 map-col">
-              <leaflet :center="[36.142926, -86.805989]" :zoom="18" />
-            </div>
-            <div class="col-md-6">
-              <div class="map-content">
-                <p>The event will take place from
-                  <b>October 20-22, 2017</b> at the Wondry.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
       <div class="faq feature-block">
         <div class="text-contents">
           <h1>FAQ</h1>
@@ -110,6 +81,7 @@
           </div>
         </div>
       </div>
+      <googlemap/>
       <div class="sponsors feature-block">
         <div class="text-contents">
           <h1>Sponsors</h1>
@@ -126,7 +98,7 @@ import MlhBadge from '~/components/MlhBadge.vue'
 import Separator from '~/components/Separator.vue'
 import Infobox from '~/components/Infobox.vue'
 import FaqItem from '~/components/FaqItem.vue'
-import LeafletMap from '~/components/LeafletMap.vue'
+import GoogleMap from '~/components/GoogleMap.vue'
 
 // Embedded SVG
 import BatmanBuilding from '~/components/BatmanBuilding.vue'
@@ -138,7 +110,7 @@ export default {
     infobox: Infobox,
     faqitem: FaqItem,
     batmanbuilding: BatmanBuilding,
-    leaflet: LeafletMap
+    googlemap: GoogleMap
   }
 }
 </script>
@@ -279,18 +251,6 @@ $skyline-color: #e0e7f5;
 .faq {
   background: #565f86;
   color: white;
-}
-
-.map-col {
-  flex: 1 0 100%;
-}
-
-.map-content {
-  padding: 30px 0 0 0;
-
-  @media only screen and (min-width: 64em) {
-    padding: 0 0 0 15px;
-  }
 }
 
 .faq {
