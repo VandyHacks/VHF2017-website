@@ -23,6 +23,7 @@ export default {
         zoom: 16,
         minZoom: 5,
         scrollwheel: false,
+        gestureHandling: 'cooperative',
         styles: [
           {
             'featureType': 'administrative',
@@ -53,7 +54,7 @@ export default {
                 'saturation': -100
               },
               {
-                'lightness': 50
+                'lightness': 20
               },
               {
                 'visibility': 'simplified'
@@ -62,17 +63,8 @@ export default {
           },
           {
             'featureType': 'poi',
-            'elementType': 'all',
+            'elementType': 'geometry',
             'stylers': [
-              {
-                'hue': '#ffffff'
-              },
-              {
-                'saturation': -100
-              },
-              {
-                'lightness': 100
-              },
               {
                 'visibility': 'off'
               }
@@ -89,7 +81,7 @@ export default {
                 'saturation': -93
               },
               {
-                'lightness': 20
+                'lightness': 0
               },
               {
                 'visibility': 'simplified'
@@ -143,7 +135,7 @@ export default {
                 'saturation': -90
               },
               {
-                'lightness': -14
+                'lightness': -25
               },
               {
                 'visibility': 'simplified'
@@ -173,13 +165,13 @@ export default {
             'elementType': 'all',
             'stylers': [
               {
-                'hue': '#e9ebed'
+                'hue': '#222a53'
               },
               {
-                'saturation': -78
+                'saturation': -85
               },
               {
-                'lightness': 40
+                'lightness': 0
               },
               {
                 'visibility': 'simplified'
