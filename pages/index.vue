@@ -254,7 +254,6 @@ $skyline-color: #e0e7f5;
 }
 
 .faq {
-  margin-bottom: -5px;
   text-align: center;
 
   .text-contents {
