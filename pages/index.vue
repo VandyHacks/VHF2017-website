@@ -42,7 +42,14 @@
         <div class="text-contents">
           <h1>Schedule</h1>
           <separator white/>
-          <p>As spoiled dolphin jeez neglectfully after less more and less filled antagonistically far and examined while far quail darn far saucily alert circa rabbit or noticeable according wow wherever cuffed alas but creepy congenially the one alertly dwelled scorpion fussy mawkish sordid much far circa next one darn towards more or irrespective antelope simply alas as the gorilla hotly forward along up gibbered where more excepting across boundless massive jeez frowned some tangible mammoth far between far that. Sapien orci elementum commodo etiam eget phasellus mi semper ultrices, ultricies hendrerit non duis aenean morbi aliquet condimentum ipsum ut, himenaeos maecenas nunc et imperdiet conubia ut euismod nec morbi donec vulputate odio molestie tempor consectetur justo mauris velit et, class risus magna laoreet maecenas ut sed accumsan per rutrum, pellentesque iaculis mi pharetra interdum accumsan tellus porttitor lectus amet quisque eros volutpat diam. Curabitur luctus porta himenaeos dictum a amet magna leo himenaeos erat, platea nam imperdiet nisl etiam eros lorem dictumst semper molestie sem tempus turpis augue erat tellus massa dui arcu, tortor ornare ligula augue lorem litora fermentum neque, cras curae a habitant gravida fermentum ligula mattis aenean pulvinar cubilia est tellus risus integer curabitur cubilia nostra interdum, habitant platea nam iaculis sollicitudin aliquet convallis tellus habitant, eu purus ut velit nam id lacinia accumsan porta. Sapien orci elementum commodo etiam eget phasellus mi semper ultrices, ultricies hendrerit non duis aenean morbi aliquet condimentum ipsum ut, himenaeos maecenas nunc et imperdiet conubia ut euismod nec morbi donec vulputate odio molestie tempor consectetur justo mauris velit et, class risus magna laoreet maecenas ut sed accumsan per rutrum, pellentesque iaculis mi pharetra interdum accumsan tellus porttitor lectus amet quisque eros volutpat diam.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p>As spoiled dolphin jeez neglectfully after less more and less filled antagonistically far and examined while far quail darn far saucily alert circa rabbit or noticeable according wow wherever cuffed alas but creepy congenially the one alertly dwelled scorpion fussy mawkish sordid much far circa next one darn towards more or irrespective antelope simply alas as the gorilla hotly forward along up gibbered where more excepting across boundless massive jeez frowned some tangible mammoth far between far that. Sapien orci elementum commodo etiam eget phasellus mi semper ultrices, ultricies hendrerit non duis aenean morbi aliquet condimentum ipsum ut, himenaeos maecenas nunc et imperdiet conubia ut euismod nec morbi donec vulputate odio molestie tempor consectetur justo mauris velit et, class risus magna laoreet maecenas ut sed accumsan per rutrum, pellentesque iaculis mi pharetra interdum accumsan tellus porttitor lectus amet quisque eros volutpat diam. Curabitur luctus porta himenaeos dictum a amet magna leo himenaeos erat, platea nam imperdiet nisl etiam eros lorem dictumst semper molestie sem tempus turpis augue erat tellus massa dui arcu, tortor ornare ligula augue lorem litora fermentum neque, cras curae a habitant gravida fermentum ligula mattis aenean pulvinar cubilia est tellus risus integer curabitur cubilia nostra interdum, habitant platea nam iaculis sollicitudin aliquet convallis tellus habitant, eu purus ut velit nam id lacinia accumsan porta. Sapien orci elementum commodo etiam eget phasellus mi semper ultrices, ultricies hendrerit non duis aenean morbi aliquet condimentum ipsum ut, himenaeos maecenas nunc et imperdiet conubia ut euismod nec morbi donec vulputate odio molestie tempor consectetur justo mauris velit et, class risus magna laoreet maecenas ut sed accumsan per rutrum, pellentesque iaculis mi pharetra interdum accumsan tellus porttitor lectus amet quisque eros volutpat diam.</p>
+            </div>
+            <div class="col-md-6">
+              <leaflet :center="[36.142926, -86.805989]" :zoom="16" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="faq feature-block">
@@ -56,7 +63,8 @@
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
               <faqitem title="What if I've never been to a hackathon?">
-                Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a> with any questions you may have.
+                Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
+                <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a> with any questions you may have.
               </faqitem>
               <h3 class="faq-header">Applying</h3>
               <faqitem title="Who can apply?">
@@ -113,6 +121,7 @@ import MlhBadge from '~/components/MlhBadge.vue'
 import Separator from '~/components/Separator.vue'
 import Infobox from '~/components/Infobox.vue'
 import FaqItem from '~/components/FaqItem.vue'
+import LeafletMap from '~/components/LeafletMap.vue'
 
 // Embedded SVG
 import BatmanBuilding from '~/components/BatmanBuilding.vue'
@@ -123,7 +132,8 @@ export default {
     separator: Separator,
     infobox: Infobox,
     faqitem: FaqItem,
-    batmanbuilding: BatmanBuilding
+    batmanbuilding: BatmanBuilding,
+    leaflet: LeafletMap
   }
 }
 </script>
@@ -270,8 +280,7 @@ $skyline-color: #e0e7f5;
   text-align: center;
 
   .text-contents {
-    text-align: left;
-    // padding-bottom: 15px;
+    text-align: left; // padding-bottom: 15px;
   }
 }
 
