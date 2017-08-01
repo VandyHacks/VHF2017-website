@@ -102,5 +102,17 @@ export default {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        -webkit-transform: translatey(-50%);
+        -moz-transform: translatey(-50%);
+        @media (max-width: 64em) {
+          width: 80%;
+          float: none;
+          top: 0;
+          left: 50%;
+          position: relative;
+          -moz-transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+        }
     }
 </style>

@@ -307,6 +307,12 @@ $skyline-color: #e0e7f5;
 #map-col {
   padding-right: 0;
   padding-left: 45px;
+  width: 100%;
+  min-height: 400px;
+  @media (max-width: 64em) {
+    padding: inherit;
+    margin-top: 40px;
+  }
 }
 
 </style>
