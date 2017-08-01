@@ -63,10 +63,19 @@ export default {
           },
           {
             'featureType': 'poi',
-            'elementType': 'geometry',
+            'elementType': 'all',
             'stylers': [
               {
                 'visibility': 'off'
+              }
+            ]
+          },
+          {
+            'featureType': 'poi.school',
+            'elementType': 'labels',
+            'stylers': [
+              {
+                'visibility': 'on'
               }
             ]
           },
