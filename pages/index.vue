@@ -277,7 +277,7 @@ $skyline-color: #e0e7f5;
 }
 
 .map-col {
-  flex: 1;
+  flex: 1 0 100%;
 }
 
 .faq {
