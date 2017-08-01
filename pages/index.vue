@@ -55,6 +55,9 @@
               <faqitem title="I have no idea how to code! What if I've never been to a hackathon?">
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
+              <faqitem title="What if I've never been to a hackathon?">
+                Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a> with any questions you may have.
+              </faqitem>
               <h3 class="faq-header">Applying</h3>
               <faqitem title="Who can apply?">
                 Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
