@@ -27,7 +27,7 @@
           <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks IV! From October 20-22, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship. For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of major or background.</p>
         </div>
       </div>
-  
+      <googlemap/>
       <div class="faq feature-block">
         <div class="text-contents">
           <h1>FAQ</h1>
@@ -81,7 +81,6 @@
           </div>
         </div>
       </div>
-      <googlemap/>
       <div class="sponsors feature-block">
         <div class="text-contents">
           <h1>Sponsors</h1>
