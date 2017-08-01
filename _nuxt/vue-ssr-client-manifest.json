@@ -7,26 +7,26 @@
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProSemiBold.85ed71d.woff2",
     "fonts/SofiaProSemiBold.46e68ac.woff",
-    "0.nuxt.bundle.4e40b71591718ff959fd.js",
+    "0.nuxt.bundle.d0f53445db77baaa7394.js",
     "1.nuxt.bundle.907d90b5faf0d426fc87.js",
     "vendor.bundle.976eb72d786078b1fca9.js",
     "img/vandyhacks-text.cef468a.svg",
-    "manifest.10031e8b66b65bc53ed7.js",
-    "0.nuxt.bundle.4e40b71591718ff959fd.js.map",
+    "manifest.38a3d0698ee7c4b125bc.js",
+    "0.nuxt.bundle.d0f53445db77baaa7394.js.map",
     "1.nuxt.bundle.907d90b5faf0d426fc87.js.map",
     "vendor.bundle.976eb72d786078b1fca9.js.map",
     "nuxt.bundle.5a3f52db8ecec1dc3301.js.map",
-    "manifest.10031e8b66b65bc53ed7.js.map",
+    "manifest.38a3d0698ee7c4b125bc.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.10031e8b66b65bc53ed7.js",
+    "manifest.38a3d0698ee7c4b125bc.js",
     "vendor.bundle.976eb72d786078b1fca9.js",
     "nuxt.bundle.5a3f52db8ecec1dc3301.js"
   ],
   "async": [
-    "0.nuxt.bundle.4e40b71591718ff959fd.js",
+    "0.nuxt.bundle.d0f53445db77baaa7394.js",
     "1.nuxt.bundle.907d90b5faf0d426fc87.js"
   ],
   "modules": {
