@@ -46,7 +46,7 @@
           <separator/>
           <div class="row">
             <div class="col-md-6 map-col">
-              <leaflet :center="[36.142926, -86.805989]" :zoom="18" />
+              <leaflet :center="[36.142926, -86.805989]" :zoom="18" :location="[36.142926, -86.805989]" />
             </div>
             <div class="col-md-6">
               <div class="map-content">

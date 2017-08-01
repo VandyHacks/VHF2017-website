@@ -29,7 +29,8 @@ export default {
     accessToken: {
       type: String,
       default: 'pk.eyJ1IjoiYmVuY29vcGVyMjIyIiwiYSI6ImNpeGlxY2dxMzAwMTYzMnBqdnM5ZzE0ZDgifQ.ny6yQcI2QEHve1aMhs-0Rw'
-    }
+    },
+    location: Array
   },
   mounted() {
     if (process.browser) {
@@ -47,6 +48,10 @@ export default {
         retina: '@2x',
         accessToken: this.accessToken
       }).addTo(this.map)
+
+      L.marker(this.location).addTo(this.map)
+        .bindPopup("<b>VandyHacks IV</b><br>Hosted at the Wondr'y")
+        .openPopup()
     }
   },
   beforeDestroy() {
