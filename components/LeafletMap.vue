@@ -1,13 +1,21 @@
 <style lang="scss" scoped>
+.map-col {
+  display: flex;
+  flex: 1;
+}
+
 .map {
   height: 280px;
   border-radius: 3px;
   z-index: 0;
+  flex: 1;
 }
 </style>
 
 <template>
-  <div class="map">
+  <div class="col-md-6 map-col">
+    <div class="map" ref="mapEl">
+    </div>
   </div>
 </template>
 
@@ -20,7 +28,7 @@ export default {
   mounted() {
     if (process.browser) {
       const L = require('leaflet')
-      this.map = L.map(this.$el, {
+      this.map = L.map(this.$refs.mapEl, {
         center: this.center,
         zoom: this.zoom,
         attributionControl: false
