@@ -258,6 +258,10 @@ $skyline-color: #e0e7f5;
   .text-contents {
     text-align: left; // padding-bottom: 15px;
   }
+
+  /deep/ a {
+    color: #d0d3e1;
+  }
 }
 
 .faq-header {
