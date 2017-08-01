@@ -1,6 +1,6 @@
 <template>
 <div id="map">
-  <mapbox 
+  <mapbox
 access-token="pk.eyJ1IjoiYmVuY29vcGVyMjIyIiwiYSI6ImNpeGlxY2dxMzAwMTYzMnBqdnM5ZzE0ZDgifQ.ny6yQcI2QEHve1aMhs-0Rw"
 :map-options="{
 	style: 'mapbox://styles/mapbox/dark-v9',
@@ -8,7 +8,7 @@ access-token="pk.eyJ1IjoiYmVuY29vcGVyMjIyIiwiYSI6ImNpeGlxY2dxMzAwMTYzMnBqdnM5ZzE
 	zoom: this.zoom
 }"
 :geolocate-control="{
-	show: true, 
+	show: true,
 	position: 'top-left'
 }"
 :scale-control="{
@@ -95,12 +95,12 @@ export default {
 
 <style lang="scss" scoped>
     #map {
-        width: 70%;
-        height: 400px;
+        width: 100%;
+        height: 90%;
         float: right;
-        margin-left: 25%;
         z-index:inherit;
-        
-       
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
 </style>
