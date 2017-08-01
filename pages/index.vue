@@ -47,8 +47,10 @@
               <leaflet :center="[36.142926, -86.805989]" :zoom="16" />
             </div>
             <div class="col-md-6">
-              <p>The event will take place from
-                <b>October 20-22, 2017</b> at the Wondry.</p>
+              <div class="map-content">
+                <p>The event will take place from
+                  <b>October 20-22, 2017</b> at the Wondry.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -278,6 +280,14 @@ $skyline-color: #e0e7f5;
 
 .map-col {
   flex: 1 0 100%;
+}
+
+.map-content {
+  padding: 30px 0 0 0;
+
+  @media only screen and (min-width: 64em) {
+    padding: 0 0 0 15px;
+  }
 }
 
 .faq {
