@@ -1,7 +1,6 @@
 <style lang="scss" scoped>
 .map {
   height: 280px;
-  border-radius: 3px;
 }
 </style>
 
