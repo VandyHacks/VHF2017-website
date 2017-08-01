@@ -35,7 +35,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    }, 
+    vendor: ['leaflet']
   },
-  css: ['flexboxgrid/dist/flexboxgrid.css']
+  css: ['flexboxgrid/dist/flexboxgrid.css', 'leaflet/dist/leaflet.css']
 }
