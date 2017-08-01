@@ -10,6 +10,10 @@
   z-index: 0;
   flex: 1;
 }
+
+.leaflet-container /deep/ a {
+  color: #565f86;
+}
 </style>
 
 <template>
