@@ -12,7 +12,11 @@ module.exports = {
       { 'written-by': 'Yunyu Lin' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      {rel: 'stylesheet', href:'https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css'}
+    ],
+    script:[
+      {src: 'https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'}
     ]
   },
   /*
