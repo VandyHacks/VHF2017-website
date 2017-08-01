@@ -38,9 +38,9 @@ export default {
       const L = require('leaflet')
       this.map = L.map(this.$refs.mapEl, {
         center: this.center,
-        zoom: this.zoom,
-        attributionControl: false
+        zoom: this.zoom
       })
+      this.map.attributionControl.setPrefix('')
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
         maxZoom: 18,
