@@ -9,26 +9,26 @@
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProSemiBold.85ed71d.woff2",
     "fonts/SofiaProSemiBold.46e68ac.woff",
-    "0.nuxt.bundle.2f7c3ba180f6c9c74528.js",
+    "0.nuxt.bundle.22ef6b292bf9d658b2b3.js",
     "1.nuxt.bundle.d79f65cf84a900cd9b11.js",
     "img/marker-icon.2273e3d.png",
     "nuxt.bundle.5d65f9c0b7ec55e70946.js",
-    "manifest.e5cc48e89673a80b70b6.js",
-    "0.nuxt.bundle.2f7c3ba180f6c9c74528.js.map",
+    "manifest.f63f1ea5be5367d00f80.js",
+    "0.nuxt.bundle.22ef6b292bf9d658b2b3.js.map",
     "1.nuxt.bundle.d79f65cf84a900cd9b11.js.map",
     "vendor.bundle.08801517ca56b6103bee.js.map",
     "nuxt.bundle.5d65f9c0b7ec55e70946.js.map",
-    "manifest.e5cc48e89673a80b70b6.js.map",
+    "manifest.f63f1ea5be5367d00f80.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.e5cc48e89673a80b70b6.js",
+    "manifest.f63f1ea5be5367d00f80.js",
     "vendor.bundle.08801517ca56b6103bee.js",
     "nuxt.bundle.5d65f9c0b7ec55e70946.js"
   ],
   "async": [
-    "0.nuxt.bundle.2f7c3ba180f6c9c74528.js",
+    "0.nuxt.bundle.22ef6b292bf9d658b2b3.js",
     "1.nuxt.bundle.d79f65cf84a900cd9b11.js"
   ],
   "modules": {
