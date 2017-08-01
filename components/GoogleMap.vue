@@ -2,6 +2,22 @@
 .map {
   height: 500px;
   background: #e5e3df;
+
+  /deep/ {
+    .poi-info-window .title {
+      overflow: hidden;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .poi-info-window .full-width {
+      width: 180px;
+    }
+    .poi-info-window .address-line {
+      color: #333;
+      font-family: Roboto, Arial;
+      font-size: 13px;
+    }
+  }
 }
 </style>
 
@@ -24,6 +40,7 @@ export default {
         minZoom: 5,
         scrollwheel: false,
         gestureHandling: 'cooperative',
+        clickableIcons: false,
         styles: [
           {
             'featureType': 'administrative',
@@ -192,16 +209,27 @@ export default {
 
       const placeId = 'ChIJd_uqbKNmZIgRWON4Kc8ClcM'
       const service = new google.maps.places.PlacesService(this.map)
+      const infoWindow = new google.maps.InfoWindow({
+        content: `
+        <div class="poi-info-window gm-style">
+          <div class="title full-width">The Wond'ry</div>
+          <div class="address-line full-width">2414 Highland Ave #102,</div>
+          <div class="address-line full-width">Nashville, TN 37213</div>
+        </div>
+        `
+      })
+
       service.getDetails({
         placeId: placeId
       }, (result, status) => {
-        new google.maps.Marker({ // eslint-disable-line no-new
+        const marker = new google.maps.Marker({ // eslint-disable-line no-new
           map: this.map,
           place: {
             placeId: placeId,
             location: result.geometry.location
           }
         })
+        marker.addListener('click', () => infoWindow.open(this.map, marker))
       })
     })
   },
