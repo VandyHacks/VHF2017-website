@@ -40,7 +40,7 @@
       </div>
       <div class="schedule feature-block">
         <div class="text-contents">
-          <h1>Schedule</h1>
+          <h1>Logistics</h1>
           <separator white/>
           <div class="row">
             <div class="col-md-6 map-col">
