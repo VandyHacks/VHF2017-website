@@ -1,6 +1,7 @@
 <style lang="scss" scoped>
 .map {
   height: 500px;
+  background: #e4e4df;
 }
 </style>
 
