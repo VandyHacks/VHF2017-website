@@ -40,7 +40,7 @@ export default {
       })
       this.map.attributionControl.setPrefix('')
       L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/{z}/{x}/{y}{retina}?access_token={accessToken}', {
-        attribution: '&copy; <a href="http://mapbox.com">Mapbox</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> <a href="https://www.mapbox.com/feedback/"><b>Improve this map</b></a>',
+        attribution: '&copy; <a href="http://mapbox.com">Mapbox</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> <a href="https://www.mapbox.com/feedback/" target="_blank" rel="noopener"><b>Improve this map</b></a>',
         maxZoom: 20,
         tileSize: 512,
         zoomOffset: -1,
