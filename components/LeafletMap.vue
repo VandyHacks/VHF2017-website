@@ -41,7 +41,7 @@ export default {
       this.map.attributionControl.setPrefix('')
       L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: '&copy; <a href="http://mapbox.com">Mapbox</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> <a href="https://www.mapbox.com/feedback/"><b>Improve this map</b></a>',
-        maxZoom: 18,
+        maxZoom: 20,
         id: 'mapbox.streets',
         accessToken: this.accessToken
       }).addTo(this.map)
