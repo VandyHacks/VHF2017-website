@@ -21,6 +21,7 @@ export default {
       this.map = new google.maps.Map(this.$el, {
         center: { lat: 36.142926, lng: -86.805989 },
         zoom: 16,
+        minZoom: 5,
         scrollwheel: false,
         styles: [
           {
@@ -28,7 +29,7 @@ export default {
             'elementType': 'all',
             'stylers': [
               {
-                'hue': '#2c2e33'
+                'hue': '#222a53'
               },
               {
                 'saturation': 7
@@ -52,7 +53,7 @@ export default {
                 'saturation': -100
               },
               {
-                'lightness': 100
+                'lightness': 50
               },
               {
                 'visibility': 'simplified'
@@ -88,7 +89,7 @@ export default {
                 'saturation': -93
               },
               {
-                'lightness': 31
+                'lightness': 20
               },
               {
                 'visibility': 'simplified'
@@ -142,7 +143,7 @@ export default {
                 'saturation': -90
               },
               {
-                'lightness': -8
+                'lightness': -14
               },
               {
                 'visibility': 'simplified'
@@ -160,7 +161,7 @@ export default {
                 'saturation': 10
               },
               {
-                'lightness': 69
+                'lightness': 40
               },
               {
                 'visibility': 'on'
@@ -178,7 +179,7 @@ export default {
                 'saturation': -78
               },
               {
-                'lightness': 67
+                'lightness': 40
               },
               {
                 'visibility': 'simplified'
