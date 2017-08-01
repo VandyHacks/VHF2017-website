@@ -13,10 +13,8 @@
 </style>
 
 <template>
-  <div :class="rootClass" class="map-col">
-    <div class="map" ref="mapEl">
+    <div class="map">
     </div>
-  </div>
 </template>
 
 <script>
@@ -24,10 +22,6 @@ export default {
   props: {
     center: Array,
     zoom: Number,
-    columns: {
-      type: Number,
-      default: 6
-    },
     accessToken: {
       type: String,
       default: 'pk.eyJ1IjoiYmVuY29vcGVyMjIyIiwiYSI6ImNpeGlxY2dxMzAwMTYzMnBqdnM5ZzE0ZDgifQ.ny6yQcI2QEHve1aMhs-0Rw'
@@ -36,7 +30,7 @@ export default {
   mounted() {
     if (process.browser) {
       const L = require('leaflet')
-      this.map = L.map(this.$refs.mapEl, {
+      this.map = L.map(this.$el, {
         center: this.center,
         zoom: this.zoom
       })
@@ -52,11 +46,6 @@ export default {
   beforeDestroy() {
     if (this.map) {
       this.map.remove()
-    }
-  },
-  computed: {
-    rootClass() {
-      return `col-md-${this.columns}`
     }
   }
 }
