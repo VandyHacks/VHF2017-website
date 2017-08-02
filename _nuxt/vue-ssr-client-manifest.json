@@ -1,33 +1,33 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "nuxt.bundle.34b4a8553ae4be317425.js",
+    "nuxt.bundle.9f4768f07e017729bca8.js",
     "img/skyline.b9a11d4.svg",
     "fonts/SofiaProRegular.a3e9ad2.woff2",
     "fonts/SofiaProRegular.c15f875.woff",
     "fonts/SofiaProSemiBold.85ed71d.woff2",
     "fonts/SofiaProSemiBold.46e68ac.woff",
-    "0.nuxt.bundle.c1e2234cd6be2f53f732.js",
-    "1.nuxt.bundle.cb8a0f868ed845114105.js",
-    "vendor.bundle.8d7d5eb4092b51f7f996.js",
+    "0.nuxt.bundle.6687d02969f437bdd3ce.js",
+    "1.nuxt.bundle.7418732ecb489f04d51e.js",
+    "vendor.bundle.2113f33bbda44ea22ac8.js",
     "img/vandyhacks-text.cef468a.svg",
-    "manifest.67263c553bfd3797aa53.js",
-    "0.nuxt.bundle.c1e2234cd6be2f53f732.js.map",
-    "1.nuxt.bundle.cb8a0f868ed845114105.js.map",
-    "vendor.bundle.8d7d5eb4092b51f7f996.js.map",
-    "nuxt.bundle.34b4a8553ae4be317425.js.map",
-    "manifest.67263c553bfd3797aa53.js.map",
+    "manifest.d759f3e3ca4a368f3c5f.js",
+    "0.nuxt.bundle.6687d02969f437bdd3ce.js.map",
+    "1.nuxt.bundle.7418732ecb489f04d51e.js.map",
+    "vendor.bundle.2113f33bbda44ea22ac8.js.map",
+    "nuxt.bundle.9f4768f07e017729bca8.js.map",
+    "manifest.d759f3e3ca4a368f3c5f.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.67263c553bfd3797aa53.js",
-    "vendor.bundle.8d7d5eb4092b51f7f996.js",
-    "nuxt.bundle.34b4a8553ae4be317425.js"
+    "manifest.d759f3e3ca4a368f3c5f.js",
+    "vendor.bundle.2113f33bbda44ea22ac8.js",
+    "nuxt.bundle.9f4768f07e017729bca8.js"
   ],
   "async": [
-    "0.nuxt.bundle.c1e2234cd6be2f53f732.js",
-    "1.nuxt.bundle.cb8a0f868ed845114105.js"
+    "0.nuxt.bundle.6687d02969f437bdd3ce.js",
+    "1.nuxt.bundle.7418732ecb489f04d51e.js"
   ],
   "modules": {
     "20476215": [
@@ -298,7 +298,11 @@
       0,
       14
     ],
-    "2ea586e5": [
+    "9df94e88": [
+      8,
+      13
+    ],
+    "2f3ec8f0": [
       8,
       13
     ],
@@ -731,12 +735,6 @@
       9
     ],
     "7cc46e23": [
-      6,
-      11,
-      1,
-      9
-    ],
-    "9df94e88": [
       6,
       11,
       1,
