@@ -35,7 +35,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    vendor: ['google-maps']
   },
   css: ['flexboxgrid/dist/flexboxgrid.css']
 }
