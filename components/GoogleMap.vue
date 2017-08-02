@@ -4,18 +4,31 @@
   background: #e5e3df;
 
   /deep/ {
-    .poi-info-window .title {
-      overflow: hidden;
-      font-weight: 500;
-      font-size: 14px;
-    }
-    .poi-info-window .full-width {
-      width: 180px;
-    }
-    .poi-info-window .address-line {
-      color: #333;
-      font-family: Roboto, Arial;
+    .poi-info-window {
       font-size: 13px;
+
+      .title {
+        overflow: hidden;
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .full-width {
+        width: 180px;
+      }
+
+      .address-line {
+        color: #333;
+        font-family: Roboto, Arial;
+      }
+
+      .view-link > :first-child {
+        text-decoration: none;
+      }
+    }
+
+    .gm-style-iw > * {
+      display: none;
     }
   }
 }
@@ -215,6 +228,7 @@ export default {
           <div class="title full-width">The Wond'ry</div>
           <div class="address-line full-width">2414 Highland Ave #102,</div>
           <div class="address-line full-width">Nashville, TN 37213</div>
+          <div class="view-link"><a href="https://www.google.com/maps?cid=14093173697703109464" rel="noopener" target="_blank">View on Google Maps</a></div>
         </div>
         `
       })
