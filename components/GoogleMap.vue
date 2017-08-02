@@ -17,7 +17,7 @@ $height: 500px;
   background-color: white;
   padding: 10px;
   font-family: Roboto, Arial;
-  font-size: 12px;
+  font-size: 13px;
   margin: 15px;
 
   .title {
@@ -39,6 +39,7 @@ $height: 500px;
   .view-link {
     margin-top: 6px;
     &>* {
+      color: #427fed;
       text-decoration: none;
     }
   }
@@ -50,13 +51,11 @@ $height: 500px;
     <div class="map" ref="map">
     </div>
     <div id="top-left-widget" ref="top-left-widget" v-show="mapLoaded">
-      <div class="poi-info-window">
-        <div class="title full-width">The Wond'ry</div>
-        <div class="address-line full-width">2414 Highland Ave #102,</div>
-        <div class="address-line full-width">Nashville, TN 37213</div>
-        <div class="view-link">
-          <a href="https://www.google.com/maps?cid=14093173697703109464" rel="noopener" target="_blank">View larger map</a>
-        </div>
+      <div class="title full-width">The Wond'ry</div>
+      <div class="address-line full-width">2414 Highland Ave #102,</div>
+      <div class="address-line full-width">Nashville, TN 37213</div>
+      <div class="view-link">
+        <a href="https://www.google.com/maps?cid=14093173697703109464" rel="noopener" target="_blank">View larger map</a>
       </div>
     </div>
   </div>
@@ -83,7 +82,7 @@ export default {
         minZoom: 5,
         scrollwheel: false,
         gestureHandling: 'cooperative',
-        clickableIcons: false,
+        // clickableIcons: false,
         mapTypeControl: false,
         streetViewControl: false
         /*
