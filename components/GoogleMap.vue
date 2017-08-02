@@ -38,7 +38,7 @@ $height: 500px;
 
   .view-link {
     margin-top: 6px;
-    & > * {
+    &>* {
       text-decoration: none;
     }
   }
@@ -75,9 +75,10 @@ export default {
     const GoogleMapsLoader = require('google-maps')
     GoogleMapsLoader.KEY = 'AIzaSyBxCpny2yWKW8U06L2c10K5WXnnXktjKTo'
     GoogleMapsLoader.LIBRARIES = ['places']
+    const position = { lat: 36.142926, lng: -86.805989 }
     GoogleMapsLoader.load(google => {
       this.map = new google.maps.Map(this.$refs.map, {
-        center: { lat: 36.142926, lng: -86.805989 },
+        center: position,
         zoom: 16,
         minZoom: 5,
         scrollwheel: false,
@@ -256,19 +257,9 @@ export default {
       this.mapLoaded = true
       this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(this.$refs['top-left-widget'])
 
-      const placeId = 'ChIJd_uqbKNmZIgRWON4Kc8ClcM'
-      const service = new google.maps.places.PlacesService(this.map)
-
-      service.getDetails({
-        placeId: placeId
-      }, (result, status) => {
-        new google.maps.Marker({ // eslint-disable-line no-new
-          map: this.map,
-          place: {
-            placeId: placeId,
-            location: result.geometry.location
-          }
-        })
+      new google.maps.Marker({ // eslint-disable-line no-new
+        map: this.map,
+        position: position
       })
     })
   }
