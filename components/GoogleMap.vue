@@ -55,7 +55,7 @@ $height: 500px;
         <div class="address-line full-width">2414 Highland Ave #102,</div>
         <div class="address-line full-width">Nashville, TN 37213</div>
         <div class="view-link">
-          <a href="https://www.google.com/maps?cid=14093173697703109464" rel="noopener" target="_blank">View on Google Maps</a>
+          <a href="https://www.google.com/maps?cid=14093173697703109464" rel="noopener" target="_blank">View larger map</a>
         </div>
       </div>
     </div>
