@@ -84,7 +84,8 @@ export default {
         gestureHandling: 'cooperative',
         clickableIcons: false,
         mapTypeControl: false,
-        streetViewControl: false,
+        streetViewControl: false
+        /*
         styles: [
           {
             'featureType': 'administrative',
@@ -249,6 +250,7 @@ export default {
             ]
           }
         ]
+        */
       })
 
       this.mapLoaded = true
