@@ -89,7 +89,7 @@
               <faqitem title="Do I need to stay the entire time?">
                 Vanderbilt students are free to enter and leave the venue at all times. Students from other schools are asked to remain inside the venue throughout the entire event.
               </faqitem>
-              <h3 class="faq-header">Other Ways to Be Involved</h3>
+              <h3 class="faq-header">Getting involved</h3>
               <faqitem title="What if I’m interested in being a mentor?">
                 Send us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
