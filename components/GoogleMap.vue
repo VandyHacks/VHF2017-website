@@ -101,10 +101,10 @@ $height: 500px;
         <div class="address-line full-width">2414 Highland Ave #102,</div>
         <div class="address-line full-width">Nashville, TN 37213</div>
         <div class="link-wrapper">
-          <a href="https://maps.google.com/maps?cid=14093173697703109464" class="view-link" rel="noopener" target="_blank">View on Google Maps</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=The+Wond%27ry&query_place_id=ChIJd_uqbKNmZIgRWON4Kc8ClcM" class="view-link" rel="noopener" target="_blank">View on Google Maps</a>
         </div>
       </div>
-      <a href="https://maps.google.com/maps/dir//The+Wond'ry,+2414+Highland+Ave+%23102,+Nashville,+TN+37213/" rel="noopener" target="_blank">
+      <a href="https://www.google.com/maps/dir/?api=1&destination=The+Wond%27ry&destination_place_id=ChIJd_uqbKNmZIgRWON4Kc8ClcM" rel="noopener" target="_blank">
         <div class="directions">
           <div class="navigate-icon" />
           <div class="link-wrapper">
