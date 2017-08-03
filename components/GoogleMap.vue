@@ -16,9 +16,10 @@ $height: 500px;
   box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
   background-color: white;
   padding: 10px;
-  font-family: Roboto, Arial;
+  font-family: 'Roboto', Arial;
   font-size: 13px;
   margin: 15px;
+  border-radius: 2px;
 
   .title {
     overflow: hidden;
