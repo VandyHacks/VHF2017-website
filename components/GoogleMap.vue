@@ -12,14 +12,18 @@ $height: 500px;
 }
 
 #top-left-widget {
-  width: 240px;
+  width: 250px;
   box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
   background-color: white;
   padding: 10px;
   font-family: 'Roboto', Arial;
-  font-size: 13px;
+  font-size: 12px;
   margin: 15px;
   border-radius: 2px;
+
+  .address {
+    display: inline-block;
+  }
 
   .title {
     overflow: hidden;
@@ -29,20 +33,52 @@ $height: 500px;
   }
 
   .full-width {
-    width: 180px;
+    width: 150px;
   }
 
   .address-line {
     color: #5B5B5B;
-    font-family: Roboto, Arial;
   }
 
-  .view-link {
+  .link-wrapper {
     margin-top: 6px;
-    &>* {
-      color: #427fed;
-      text-decoration: none;
+  }
+
+  .view-link,
+  .navigate-link {
+    color: #427fed;
+    text-decoration: none;
+  }
+
+  .view-link:hover {
+    text-decoration: underline;
+  }
+
+  .directions {
+    float: right;
+    padding: 0 7px;
+
+    &:hover {
+      cursor: pointer;
+
+      .navigate-icon {
+        background-position: 48px 0px;
+      }
+
+      .navigate-link {
+        text-decoration: underline;
+      }
     }
+  }
+
+  .navigate-icon {
+    background-image: url(https://maps.gstatic.com/mapfiles/embed/images/entity11_hdpi.png);
+    background-size: 70px 210px;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-position: 0px 0px;
   }
 }
 </style>
@@ -52,12 +88,22 @@ $height: 500px;
     <div class="map" ref="map">
     </div>
     <div id="top-left-widget" ref="top-left-widget" v-show="mapLoaded">
-      <div class="title full-width">The Wond'ry</div>
-      <div class="address-line full-width">2414 Highland Ave #102,</div>
-      <div class="address-line full-width">Nashville, TN 37213</div>
-      <div class="view-link">
-        <a href="https://www.google.com/maps?cid=14093173697703109464" rel="noopener" target="_blank">View larger map</a>
+      <div class="address">
+        <div class="title full-width">The Wond'ry</div>
+        <div class="address-line full-width">2414 Highland Ave #102,</div>
+        <div class="address-line full-width">Nashville, TN 37213</div>
+        <div class="link-wrapper">
+          <a href="https://www.google.com/maps?cid=14093173697703109464" class="view-link" rel="noopener" target="_blank">View on Google Maps</a>
+        </div>
       </div>
+      <a href="https://www.google.com/maps/dir//The+Wond'ry,+2414+Highland+Ave+%23102,+Nashville,+TN+37213/" rel="noopener" target="_blank">
+        <div class="directions">
+          <div class="navigate-icon" />
+          <div class="link-wrapper">
+            <span class="navigate-link">Directions</span>
+          </div>
+        </div>
+        </a>
     </div>
   </div>
 </template>
