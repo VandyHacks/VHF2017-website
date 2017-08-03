@@ -42,7 +42,7 @@
               </faqitem>
               <faqitem title="What if I've never been to a hackathon?">
                 Not to worry! A few weeks before the event, you’ll receive an email with a link to our hacker guide, which will contain all the information you need to make the most out of your weekend. During the event, the VandyHacks Team will be around to help answer any questions. As always, feel free to email us at
-                <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a> with any questions you may have.
+                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a> with any questions you may have.
               </faqitem>
               <h3 class="faq-header">Applying</h3>
               <faqitem title="Who can apply?">
@@ -50,7 +50,14 @@
               </faqitem>
               <faqitem title="How does registration work?">
                 Applications will open soon on vandyhacks.org. Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
-                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>! </faqitem>
+                <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a>!
+              </faqitem>
+              <faqitem title="What if I'm a Vanderbilt student?">
+                All Vanderbilt students are encouraged to attend, regardless of major or background.
+              </faqitem>
+              <faqitem title="Are walk-ins allowed?">
+                We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins.
+              </faqitem>
               <h3 class="faq-header">Logistics</h3>
               <faqitem title="How do I get there?">
                 Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants.
@@ -74,10 +81,20 @@
                 Meals will be provided throughout the event, starting with dinner on Friday and ending with lunch on Sunday. Snacks will also be provided periodically. Vegetarian and gluten-free options are available. Be sure to designate any allergies or dietary restrictions on your application.
               </faqitem>
               <faqitem title="How are teams formed? Do I need a team?">
-                Teams are limited to four people in size. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates.
+                Teams are limited to four people in size. If you're applying with a team, we will review all of your team members' applications to determine admission. We will also have a pitch session where attendees can share their ideas and find potential teammates. However, teams are not required, so feel free to work alone.
               </faqitem>
               <faqitem title="Will there be other activities besides hacking?">
                 Of course! This year, our hacker experience team has planned a bunch of fun events for attendees to relax. Stay tuned for more info!
+              </faqitem>
+              <faqitem title="Do I need to stay the entire time?">
+                Vanderbilt students are free to enter and leave the venue at all times. Students from other schools are asked to remain inside the venue throughout the entire event.
+              </faqitem>
+              <h3 class="faq-header">Other Ways to Be Involved</h3>
+              <faqitem title="What if I’m interested in being a mentor?">
+                Send us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
+              </faqitem>
+              <faqitem title="What if I’m interested in being a sponsor?">
+                Send us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
             </div>
           </div>
