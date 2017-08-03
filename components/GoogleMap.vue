@@ -76,13 +76,17 @@ $height: 500px;
   }
 
   .navigate-icon {
-    background-image: url(https://maps.gstatic.com/mapfiles/embed/images/entity11_hdpi.png);
+    background-image: url(https://maps.gstatic.com/mapfiles/embed/images/entity11.png);
     background-size: 70px 210px;
     width: 22px;
     height: 22px;
     overflow: hidden;
     margin: 0 auto;
     background-position: 0px 0px;
+
+    @media (-webkit-min-device-pixel-ratio: 1.2), (min-resolution: 1.2dppx), (min-resolution: 116dpi) {
+      background-image: url(https://maps.gstatic.com/mapfiles/embed/images/entity11_hdpi.png);
+    }
   }
 }
 </style>
@@ -107,7 +111,7 @@ $height: 500px;
             <span class="navigate-link">Directions</span>
           </div>
         </div>
-        </a>
+      </a>
     </div>
   </div>
 </template>
