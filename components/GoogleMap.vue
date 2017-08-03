@@ -104,7 +104,7 @@ $height: 500px;
           <a href="https://maps.google.com/maps?t=m&hl=en-US&gl=US&mapclient=embed&cid=14093173697703109464" class="view-link" rel="noopener" target="_blank">View on Google Maps</a>
         </div>
       </div>
-      <a href="https://www.google.com/maps/dir//The+Wond'ry,+2414+Highland+Ave+%23102,+Nashville,+TN+37213/" rel="noopener" target="_blank">
+      <a href="https://maps.google.com/maps/dir//The+Wond'ry,+2414+Highland+Ave+%23102,+Nashville,+TN+37213/" rel="noopener" target="_blank">
         <div class="directions">
           <div class="navigate-icon" />
           <div class="link-wrapper">
