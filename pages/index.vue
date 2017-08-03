@@ -95,7 +95,7 @@
               <faqitem title="What if I’m interested in being a mentor?">
                 Send us an email at
                 <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
-              </faqitem>  
+              </faqitem>
               <h3 class="faq-header">Other</h3>
               <faqitem title="My question wasn't addressed here. What should I do?">
                 Shoot us an email at
@@ -283,7 +283,7 @@ $skyline-color: #e0e7f5;
     text-align: left; // padding-bottom: 15px;
   }
 
-  /deep/ a {
+  a {
     color: #d0d3e1;
   }
 }
