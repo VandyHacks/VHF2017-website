@@ -37,7 +37,7 @@
           <div class="row">
             <div class="col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
-              <faqitem title="I have no idea how to code! What if I've never been to a hackathon?">
+              <faqitem title="I have no idea how to code, so why should I attend?">
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
               <faqitem title="What if I've never been to a hackathon?">
@@ -66,7 +66,7 @@
                 Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis.
               </faqitem>
               <faqitem title="Will there be parking available for attendees?">
-                Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it here.
+                Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
               </faqitem>
             </div>
             <div class="col-md-6 faq-col">
@@ -94,7 +94,11 @@
                 Send us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
               <faqitem title="What if I’m interested in being a sponsor?">
-                Send us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
+                Send us an email at <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>.
+              </faqitem>
+              <br>
+              <faqitem title="My question wasn't addressed here. What should I do?">
+                Shoot us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
             </div>
           </div>
