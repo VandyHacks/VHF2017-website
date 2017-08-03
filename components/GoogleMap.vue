@@ -12,7 +12,6 @@ $height: 500px;
 }
 
 #top-left-widget {
-  width: 250px;
   box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
   background-color: white;
   padding: 10px;
@@ -33,7 +32,7 @@ $height: 500px;
   }
 
   .full-width {
-    width: 150px;
+    width: 160px;
   }
 
   .address-line {
@@ -57,6 +56,11 @@ $height: 500px;
   .directions {
     float: right;
     padding: 0 7px;
+    display: none;
+
+    @media (min-width: 432px) {
+      display: block;
+    }
 
     &:hover {
       cursor: pointer;
