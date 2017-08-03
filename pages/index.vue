@@ -26,7 +26,9 @@
           <separator white/>
           <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks IV! From October 20-22, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship. For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of major or background.</p>
           &nbsp;
-          <p><b>We are currently working out the details for the event. More information will be available in a couple of weeks.</b></p>
+          <p>
+            <b>We are currently working out the details for the event. More information will be available in a couple of weeks.</b>
+          </p>
         </div>
       </div>
       <googlemap/>
@@ -66,7 +68,8 @@
                 Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis.
               </faqitem>
               <faqitem title="Will there be parking available for attendees?">
-                Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
+                Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it
+                <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
               </faqitem>
             </div>
             <div class="col-md-6 faq-col">
@@ -89,12 +92,14 @@
               <faqitem title="Do I need to stay the entire time?">
                 Vanderbilt students are free to enter and leave the venue at all times. Students from other schools are asked to remain inside the venue throughout the entire event.
               </faqitem>
-              <h3 class="faq-header">Other</h3>
               <faqitem title="What if I’m interested in being a mentor?">
-                Send us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
-              </faqitem>
+                Send us an email at
+                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
+              </faqitem>  
+              <h3 class="faq-header">Other</h3>
               <faqitem title="My question wasn't addressed here. What should I do?">
-                Shoot us an email at <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
+                Shoot us an email at
+                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
             </div>
           </div>
