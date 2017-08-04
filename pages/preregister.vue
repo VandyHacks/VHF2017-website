@@ -125,6 +125,7 @@ $primary-color: #222a53;
   width: 24px;
   transition: all 0.25s;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
   &:hover {
     opacity: 0.75;
