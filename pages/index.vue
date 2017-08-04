@@ -209,7 +209,7 @@ export default {
   }
 
   &:active {
-    $size-factor: 0.93;
+    $size-factor: 0.95;
 
     background-color: darken($btn-bg, 10%);
     font-size: round($btn-font-size * $size-factor);
