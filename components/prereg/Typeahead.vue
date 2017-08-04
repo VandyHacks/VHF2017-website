@@ -3,6 +3,7 @@
   position: absolute;
   z-index: 4;
   filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.3)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
+  margin-bottom: 10px;
   .list-wrapper {
     display: inline-block;
     min-width: 290px;
