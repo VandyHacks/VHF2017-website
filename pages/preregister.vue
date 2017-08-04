@@ -4,6 +4,7 @@
     <email v-model="email" />
     <h1>{{ university }}</h1>
     <typeahead v-model="university" />
+    reeee
   </div>
 </template>
 

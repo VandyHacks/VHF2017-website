@@ -1,3 +1,44 @@
+<style lang="scss" scoped>
+.uni-list-container {
+  position: absolute;
+  .list-wrapper {
+    display: inline-block;
+    margin-right: -100%;
+    min-width: 340px;
+    padding: 0;
+    .caret {
+      width: 0px;
+      height: 8px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      content: '';
+      border-bottom: 8px solid white;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 4px 0px;
+    margin: 0;
+    margin-top: -1px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
+  }
+  li {
+    color: #000;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 13.3333px;
+    &.active {
+      background: darken(white, 10%);
+      cursor: default;
+    }
+  }
+}
+</style>
+
 <template>
   <div class="typeahead-container">
     <div class="input-wrapper">
