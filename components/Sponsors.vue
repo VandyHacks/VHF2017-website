@@ -53,14 +53,14 @@
     &.tier-2 {
         img {
             width: 50%;
-            max-width: 300px;
+            max-width: 360px;
         }
     }
 
     &.tier-3 {
         img {
             width: 33.333%;
-            max-width: 200px;
+            max-width: 240px;
         }
     }
 }
