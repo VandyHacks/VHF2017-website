@@ -110,6 +110,9 @@
           <h1>Sponsors</h1>
           <separator/>
           <sponsors/>
+          &nbsp;
+          <h3 class="sponsor-info">If you're interested in sponsoring VandyHacks, please email us at
+            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>. We'd be glad to have you!</h3>
         </div>
       </div>
     </div>
@@ -305,6 +308,12 @@ $skyline-color: #e0e7f5;
   .faq-col:last-child {
     padding-left: 30px;
   }
+}
+
+.sponsor-info {
+  max-width: 1200px;
+  text-align: center;
+  font-weight: normal;
 }
 
 // .sponsors {
