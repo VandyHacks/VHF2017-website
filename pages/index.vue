@@ -314,6 +314,7 @@ $skyline-color: #e0e7f5;
   max-width: 1200px;
   text-align: center;
   font-weight: normal;
+  font-size: 1.14em;
 }
 
 // .sponsors {
