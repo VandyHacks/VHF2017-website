@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <a ontouchstart="" class="apply-btn" href="/apply">Apply</a>
+            <span ontouchstart="" class="apply-btn" @click="$router.push('/preregister')">Pre-register</span>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@ export default {
   $btn-bg: #222a53;
   $btn-font-size: 16px;
   $btn-padding-v: 15px;
-  $btn-padding-h: 3 * $btn-padding-v;
+  $btn-padding-h: 2 * $btn-padding-v;
 
   color: white;
   background-color: $btn-bg;
@@ -201,6 +201,7 @@ export default {
   font-weight: bold;
   transition: all 0.15s linear;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 
   &:hover,
   &:focus {
