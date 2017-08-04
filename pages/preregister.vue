@@ -19,7 +19,7 @@ $primary-color: #222a53;
 
   h1 {
     color: $primary-color;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .input-wrapper {
