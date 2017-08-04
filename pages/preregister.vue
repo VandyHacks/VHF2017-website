@@ -41,9 +41,10 @@ $primary-color: #222a53;
       margin-right: 0px;
       font-family: 'Sofia Pro', sans-serif;
       color: $primary-color;
-      font-size: 14px;
+      font-size: 16px;
       padding: 10px;
       width: 240px;
+      -webkit-tap-highlight-color: transparent;
     }
   }
 
@@ -72,6 +73,7 @@ $primary-color: #222a53;
     font-weight: bold;
     transition: all 0.15s linear;
     -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
 
     &:hover,
     &:focus {
