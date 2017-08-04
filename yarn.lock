@@ -233,6 +233,10 @@ autoprefixer@^7.1.1:
     postcss "^6.0.6"
     postcss-value-parser "^3.2.3"
 
+autosuggest-trie@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/autosuggest-trie/-/autosuggest-trie-2.1.1.tgz#f92c4807ceef632def4424cc2f790a0ccdc1af7b"
+
 aws-sign2@~0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz#14342dd38dbcc94d0e5b87d763cd63612c0e794f"
@@ -762,6 +766,13 @@ babel-register@^6.24.1:
     lodash "^4.2.0"
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
+
+babel-runtime@^6.0.0:
+  version "6.25.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.25.0.tgz#33b98eaa5d482bb01a8d1aa6b437ad2b01aec41c"
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.10.0"
 
 babel-runtime@^6.18.0, babel-runtime@^6.20.0, babel-runtime@^6.22.0:
   version "6.23.0"
@@ -1690,6 +1701,10 @@ elliptic@^6.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
+
+email-validator@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/email-validator/-/email-validator-1.1.1.tgz#b07f3be7bac1dc099bc43e75f6ae399f552d5a80"
 
 emojis-list@^2.0.0:
   version "2.1.0"
@@ -5088,6 +5103,12 @@ vue-template-compiler@~2.4.2:
 vue-template-es2015-compiler@^1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.5.3.tgz#22787de4e37ebd9339b74223bc467d1adee30545"
+
+vue-typeahead@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/vue-typeahead/-/vue-typeahead-2.3.2.tgz#b0c10f1f9f64a2c667bff70a0166908ebd5ac904"
+  dependencies:
+    babel-runtime "^6.0.0"
 
 vue@~2.4.2:
   version "2.4.2"

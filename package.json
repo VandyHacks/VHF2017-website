@@ -5,10 +5,13 @@
   "author": "Yunyu Lin <yunyu.lin@vanderbilt.edu>",
   "private": true,
   "dependencies": {
+    "autosuggest-trie": "^2.1.1",
+    "email-validator": "^1.1.1",
     "flexboxgrid": "^6.3.1",
     "google-maps": "^3.2.1",
     "leaflet": "^1.1.0",
-    "nuxt": "^1.0.0-rc3"
+    "nuxt": "^1.0.0-rc3",
+    "vue-typeahead": "^2.3.2"
   },
   "scripts": {
     "dev": "nuxt",
