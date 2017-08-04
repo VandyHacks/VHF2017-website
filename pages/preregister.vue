@@ -66,6 +66,7 @@ $primary-color: #222a53;
     color: white;
     background-color: $btn-bg;
     border-radius: 2px;
+    -webkit-border-radius: 2px;
     text-decoration: none;
     padding: $btn-padding-v $btn-padding-h;
     font-size: $btn-font-size;
