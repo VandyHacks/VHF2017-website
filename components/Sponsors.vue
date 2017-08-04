@@ -13,15 +13,34 @@
                 <img src="~assets/img/sponsors/centenecorp.png" alt="Centene Corporation" />
             </a>
         </div>
+        <div class="sponsor-row tier-3">
+            <a href="https://www.redventures.com/">
+                <img src="~assets/img/sponsors/redventures.png" alt="RED Ventures" />
+            </a>
+            <a href="https://www.chick-fil-a.com/">
+                <img src="~assets/img/sponsors/chickfila.png" alt="Chick-fil-A" />
+            </a>
+        </div>
     </div>
 </template>
 
 <style lang="scss">
+@import '~assets/scss/breakpoints.scss';
+
 .sponsor-row {
     text-align: center;
 
     img {
-        padding: 15px;
+        padding: 10px;
+        vertical-align: middle;
+
+        @media (min-width: $break-m) {
+            padding: 15px;
+        }
+
+        @media (min-width: $break-l) {
+            padding: 20px;
+        }
     }
 
     &.tier-1 {
@@ -35,6 +54,13 @@
         img {
             width: 50%;
             max-width: 300px;
+        }
+    }
+
+    &.tier-3 {
+        img {
+            width: 33.333%;
+            max-width: 200px;
         }
     }
 }
