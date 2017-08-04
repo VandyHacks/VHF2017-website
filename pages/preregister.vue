@@ -15,7 +15,6 @@ $primary-color: #222a53;
 
   .input-box {
     text-align: center;
-    padding: 45px 0;
   }
 
   h1 {
