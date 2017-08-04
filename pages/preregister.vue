@@ -3,8 +3,12 @@
 
 $primary-color: #222a53;
 
-.preregister {
+.preregister-wrapper {
   height: 100vh;
+}
+
+.preregister {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,13 +65,13 @@ $primary-color: #222a53;
 
     color: white;
     background-color: $btn-bg;
-    border-radius: 3px;
+    border-radius: 2px;
     text-decoration: none;
     padding: $btn-padding-v $btn-padding-h;
     font-size: $btn-font-size;
     font-weight: bold;
     transition: all 0.15s linear;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 
     &:hover,
     &:focus {
@@ -99,17 +103,57 @@ $primary-color: #222a53;
   .input-wrapper.attention {
     border: 2px solid $warn-color;
   }
+
+  .status-message {
+    color: $primary-color;
+    font-size: 1.33em;
+    padding: 50px;
+
+    @media (max-width: 575px) {
+      font-size: 1.14em;
+      padding: 20px;
+    }
+  }
+}
+
+.prereg-close {
+  position: fixed;
+  top: 32px;
+  right: 32px;
+  height: 24px;
+  width: 24px;
+  transition: all 0.25s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &:active {
+    transform: scale(0.93);
+  }
+
+  @media (max-width: 575px) {
+    top: 24px;
+    right: 24px;
+    height: 16px;
+    width: 16px;
+  }
 }
 </style>
 
 <template>
-  <div class="preregister">
-    <div class="input-box">
-      <h1>Pre-register</h1>
-      <email v-model="email" />
-      <typeahead v-model="university" />
-      <input type="submit" :value="submitted ? 'Submitting...' : 'Submit'" :class="{ submitted: submitted }" :disabled="!submitAllowed" @click="submitRegistration">
+  <div class="preregister-wrapper">
+    <div class="preregister">
+      <div class="input-box" v-if="!statusMessage">
+        <h1>Pre-register</h1>
+        <email v-model="email" @pressed:enter="submitRegistration" />
+        <typeahead v-model="university" @pressed:enter="submitRegistration" />
+        <input type="submit" :value="submitted ? 'Submitting...' : 'Submit'" :class="{ submitted: submitted }" :disabled="!submitAllowed" @click="submitRegistration">
+      </div>
+      <div class="status-message" v-else v-html="statusMessage" />
     </div>
+    <img src="~assets/prereg/close.svg" alt="Close" class="prereg-close" @click="$router.push('/')" />
   </div>
 </template>
 
