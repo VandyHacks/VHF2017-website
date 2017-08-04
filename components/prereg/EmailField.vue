@@ -1,6 +1,6 @@
 <template>
   <div class="email-container">
-    <div class="input-wrapper">
+    <div class="input-wrapper" v-bind:class="emailIndicatorClass === 'icon-attention-circled' ? 'attention' : null">
       <input ref="emailInput" type="email" placeholder="Email Address" v-model="email" @keydown.enter="processEnter" :readonly="submitted" />
       <span class="fa" :class="emailIndicatorClass"></span>
     </div>

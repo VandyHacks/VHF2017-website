@@ -1,17 +1,18 @@
 <style lang="scss" scoped>
 .uni-list-container {
   position: absolute;
+  z-index: 4;
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.3)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));
   .list-wrapper {
     display: inline-block;
-    margin-right: -100%;
-    min-width: 340px;
+    min-width: 290px;
     padding: 0;
     .caret {
       width: 0px;
       height: 8px;
       left: 0;
       right: 0;
-      margin: auto;
+      margin: auto auto auto 15px;
       content: '';
       border-bottom: 8px solid white;
       border-left: 8px solid transparent;
@@ -24,7 +25,6 @@
     margin: 0;
     margin-top: -1px;
     background: white;
-    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;
   }
   li {
     color: #000;
@@ -41,7 +41,7 @@
 
 <template>
   <div class="typeahead-container">
-    <div class="input-wrapper">
+    <div class="input-wrapper" v-bind:class="typeaheadIndicatorClass === 'icon-attention-circled' ? 'attention' : null">
       <input type="text" placeholder="University Name" autocomplete="off" v-model="query" @keydown.down="down" @keydown.up="up" @keydown.tab="hit" @keydown.enter="processEnter" @input="update" @keydown.esc="reset" @blur="reset" @focus="update" :readonly="submitted" />
       <span class="fa" v-bind:class="typeaheadIndicatorClass"></span>
     </div>
@@ -131,11 +131,11 @@ export default {
   computed: {
     typeaheadIndicatorClass() {
       if (this.query.trim() === '') {
-        return ['icon-graduation-cap']
+        return 'icon-graduation-cap'
       } else if (this.query.length < 8) {
-        return ['icon-attention-circled']
+        return 'icon-attention-circled'
       } else {
-        return ['icon-ok-circled']
+        return 'icon-ok-circled'
       }
     }
   },
