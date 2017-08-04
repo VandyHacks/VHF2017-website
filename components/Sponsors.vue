@@ -1,23 +1,23 @@
 <template>
     <div class="sponsor-images">
         <div class="sponsor-row tier-1">
-            <a href="https://www.microstrategy.com/us">
+            <a href="https://www.microstrategy.com/us" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/microstrategy.png" alt="MicroStrategy" />
             </a>
         </div>
         <div class="sponsor-row tier-2">
-            <a href="https://www.bnymellon.com/">
+            <a href="https://www.bnymellon.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/bnymellon.png" alt="BNY Mellon" />
             </a>
-            <a href="https://www.centene.com/">
+            <a href="https://www.centene.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/centenecorp.png" alt="Centene Corporation" />
             </a>
         </div>
         <div class="sponsor-row tier-3">
-            <a href="https://www.redventures.com/">
+            <a href="https://www.redventures.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/redventures.png" alt="RED Ventures" />
             </a>
-            <a href="https://www.chick-fil-a.com/">
+            <a href="https://www.chick-fil-a.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/chickfila.png" alt="Chick-fil-A" />
             </a>
             <img src="~assets/img/sponsors/morecoming.svg" alt="More coming..." />
