@@ -3,7 +3,8 @@
 
 $primary-color: #222a53;
 
-.preregister-wrapper, .preregister {
+.preregister-wrapper,
+.preregister {
   height: 100%;
 }
 
@@ -43,7 +44,7 @@ $primary-color: #222a53;
       color: $primary-color;
       font-size: 16px;
       padding: 10px;
-      width: 240px;
+      width: 245px;
       -webkit-tap-highlight-color: transparent;
     }
   }
@@ -92,7 +93,7 @@ $primary-color: #222a53;
 
   .fa {
     color: $primary-color;
-    padding: 9px;
+    padding: 9px 9px 9px 5px;
   }
 
   $warn-color: #c75566;
