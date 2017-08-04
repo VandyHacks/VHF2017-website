@@ -147,7 +147,7 @@ $primary-color: #222a53;
   <div class="preregister-wrapper">
     <div class="preregister">
       <div class="input-box" v-if="!statusMessage">
-        <h1>Pre-register</h1>
+        <h1>Get Notified</h1>
         <email v-model="email" @pressed:enter="submitRegistration" />
         <typeahead v-model="university" @pressed:enter="submitRegistration" />
         <input type="submit" :value="submitted ? 'Submitting...' : 'Submit'" :class="{ submitted: submitted }" :disabled="!submitAllowed" @click="submitRegistration">
