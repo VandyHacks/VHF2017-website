@@ -3,12 +3,11 @@
 
 $primary-color: #222a53;
 
-.preregister-wrapper {
-  height: 100vh;
+.preregister-wrapper, .preregister {
+  height: 100%;
 }
 
 .preregister {
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

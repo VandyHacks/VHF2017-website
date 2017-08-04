@@ -3,6 +3,12 @@
 </template>
 
 <style>
+body,
+html,
+#__nuxt {
+  height: 100%;
+}
+
 @font-face {
   font-family: 'Sofia Pro';
   src: url("~assets/fonts/SofiaProRegular.woff2") format("woff2"), url("~assets/fonts/SofiaProRegular.woff") format("woff");
