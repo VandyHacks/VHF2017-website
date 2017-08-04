@@ -20,6 +20,7 @@
             <a href="https://www.chick-fil-a.com/">
                 <img src="~assets/img/sponsors/chickfila.png" alt="Chick-fil-A" />
             </a>
+            <img src="~assets/img/sponsors/morecoming.svg" alt="More coming..." />
         </div>
     </div>
 </template>
