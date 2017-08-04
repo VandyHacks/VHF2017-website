@@ -16,20 +16,20 @@
     "img/bnymellon.065c4a3.png",
     "1.nuxt.bundle.4e1f6e8dfb7196b35266.js",
     "vendor.bundle.2113f33bbda44ea22ac8.js",
-    "nuxt.bundle.9f4768f07e017729bca8.js",
-    "manifest.87e28aa2c708236753ca.js",
+    "nuxt.bundle.d4d5612cc736a99a538e.js",
+    "manifest.fe46b53a254ad3bfb19e.js",
     "0.nuxt.bundle.3b91061c0afcfe547ea0.js.map",
     "1.nuxt.bundle.4e1f6e8dfb7196b35266.js.map",
     "vendor.bundle.2113f33bbda44ea22ac8.js.map",
-    "nuxt.bundle.9f4768f07e017729bca8.js.map",
-    "manifest.87e28aa2c708236753ca.js.map",
+    "nuxt.bundle.d4d5612cc736a99a538e.js.map",
+    "manifest.fe46b53a254ad3bfb19e.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.87e28aa2c708236753ca.js",
+    "manifest.fe46b53a254ad3bfb19e.js",
     "vendor.bundle.2113f33bbda44ea22ac8.js",
-    "nuxt.bundle.9f4768f07e017729bca8.js"
+    "nuxt.bundle.d4d5612cc736a99a538e.js"
   ],
   "async": [
     "0.nuxt.bundle.3b91061c0afcfe547ea0.js",
