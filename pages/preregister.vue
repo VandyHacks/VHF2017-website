@@ -86,7 +86,6 @@ $primary-color: #222a53;
 
     &:active {
       background-color: darken($btn-bg, 10%);
-      transform: scale(0.98);
     }
   }
 
