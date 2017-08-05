@@ -112,7 +112,7 @@
           <sponsors/>
           &nbsp;
           <h3 class="sponsor-info">If you're interested in sponsoring VandyHacks, please email us at
-            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>. We'd be glad to have you!</h3>
+            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>.</h3>
         </div>
       </div>
     </div>
@@ -249,7 +249,7 @@ $skyline-color: #e0e7f5;
 }
 
 .text-contents {
-  max-width: 1200px;
+  max-width: 992px;
   margin-left: auto;
   margin-right: auto;
   padding: 36px;
@@ -284,6 +284,7 @@ $skyline-color: #e0e7f5;
 
   .text-contents {
     text-align: left; // padding-bottom: 15px;
+    max-width: 1200px;
   }
 
   a {

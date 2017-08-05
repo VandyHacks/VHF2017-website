@@ -12,6 +12,8 @@
 .title {
   display: inline-block;
   line-height: 24px;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 .answer {
