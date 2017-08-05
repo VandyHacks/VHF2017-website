@@ -35,8 +35,7 @@ $primary-color: #222a53;
     outline: none;
     border: none;
     font-size: 13.333px;
-    &[type="text"],
-    &[type="email"] {
+    &:not([type="submit"]) {
       background: transparent;
       padding-right: 0px;
       margin-right: 0px;
