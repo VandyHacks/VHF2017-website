@@ -44,4 +44,12 @@ html {
 a {
   color: #565f86;
 }
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .25s;
+}
+
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
 </style>
