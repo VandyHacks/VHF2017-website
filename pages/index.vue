@@ -39,7 +39,7 @@
           <div class="row">
             <div class="col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
-              <faqitem title="I have no idea how to code, so why should I attend?">
+              <faqitem title="I have no idea how to code. Can I still attend?">
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
               </faqitem>
               <faqitem title="What if I've never been to a hackathon?">
