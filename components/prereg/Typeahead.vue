@@ -26,6 +26,7 @@
     margin: 0;
     margin-top: -1px;
     background: white;
+    border-radius: 2px;
   }
   li {
     color: #000;
