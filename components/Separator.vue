@@ -19,7 +19,7 @@ export default {
   width: 60px;
   height: 4px;
   background: #000;
-  margin: 20px auto;
+  margin: 27.5px auto 20px;
 
   &.white {
     background: #fff;
