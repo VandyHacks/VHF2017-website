@@ -6,7 +6,7 @@
   margin-bottom: 10px;
   .list-wrapper {
     display: inline-block;
-    min-width: 290px;
+    min-width: 291px;
     padding: 0;
     .caret {
       width: 0px;

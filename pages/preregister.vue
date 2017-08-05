@@ -206,10 +206,12 @@ export default {
     }
   },
   mounted() {
-    // Wake up dyno if applicable
-    const xhr = new XMLHttpRequest()
-    xhr.open('GET', endpoint + 'ping', true)
-    xhr.send()
+    if (process.browser) {
+      // Wake up dyno if applicable
+      const xhr = new XMLHttpRequest()
+      xhr.open('GET', endpoint + 'ping', true)
+      xhr.send()
+    }
   }
 }
 </script>
