@@ -98,7 +98,7 @@
               </faqitem>
               <h3 class="faq-header">Other</h3>
               <faqitem title="My question wasn't addressed here. What should I do?">
-                Shoot us an email at
+                Send us an email at
                 <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
               </faqitem>
             </div>
