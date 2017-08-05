@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'The official website for VandyHacks IV, Tennessee\'s premiere hackathon' },
       { name: 'theme-color', content: '#222a53' },
       { 'written-by': 'Yunyu Lin' },
-      { property: 'og:image', content: 'https://vandyhacks.org/vh-thumb.png' },
+      { property: 'og:image', content: 'https://vandyhacks.org/vh-preview.png' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' }
     ],
