@@ -253,6 +253,7 @@ $skyline-color: #e0e7f5;
   margin-left: auto;
   margin-right: auto;
   padding: 36px;
+  line-height: 1.5em;
 
   @media (min-width: $break-l) {
     padding: 60px;
