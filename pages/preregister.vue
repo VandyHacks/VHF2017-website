@@ -37,13 +37,13 @@ $primary-color: #222a53;
     font-size: 13.333px;
     &:not([type="submit"]) {
       background: transparent;
-      padding-right: 0px;
       margin-right: 0px;
       font-family: 'Sofia Pro', sans-serif;
       color: $primary-color;
       font-size: 16px;
       padding: 10px;
-      width: 245px;
+      padding-right: 0px;
+      width: 244px;
       -webkit-tap-highlight-color: transparent;
     }
   }
@@ -92,7 +92,7 @@ $primary-color: #222a53;
 
   .fa {
     color: $primary-color;
-    padding: 9px 9px 9px 5px;
+    padding: 9px 9px 9px 6px;
   }
 
   $warn-color: #c75566;
