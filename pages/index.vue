@@ -24,7 +24,9 @@
         <div class="text-contents">
           <h1>Welcome to VandyHacks IV</h1>
           <separator white/>
-          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks IV! From October 20-22, 2017, 400 students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship. For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply.</p>
+          <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks IV! From October 20-22, 2017, 400 students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship.</p>
+          &nbsp;
+          <p>For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of their major or background.</p>
           &nbsp;
           <p>
             <b>We are currently working out the details for the event. More information will be available in a couple of weeks.</b>
@@ -109,10 +111,10 @@
         <div class="text-contents">
           <h1>Sponsors</h1>
           <separator/>
-          <sponsors/>
-          &nbsp;
+          <sponsors/> &nbsp;
           <h3 class="sponsor-info">If you're interested in sponsoring VandyHacks, please email us at
-            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a></h3>
+            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>
+          </h3>
         </div>
       </div>
     </div>
