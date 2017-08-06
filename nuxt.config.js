@@ -7,7 +7,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'The official website for VandyHacks IV, Tennessee\'s premiere hackathon' },
+      { hid: 'description', name: 'description', content: 'The official website for VandyHacks IV, Tennessee\'s premiere hackathon.' },
       { name: 'theme-color', content: '#222a53' },
       { 'written-by': 'Yunyu Lin' },
       { property: 'og:image', content: 'https://vandyhacks.org/vh-preview.png' },
