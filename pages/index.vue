@@ -39,7 +39,7 @@
           <h1>FAQ</h1>
           <separator white/>
           <div class="row">
-            <div class="col-md-6 faq-col">
+            <div class="col-sm-6 col-md-6 faq-col">
               <h3 class="faq-header">General</h3>
               <faqitem title="I have no idea how to code. Can I still attend?">
                 Even more reason for you to come! We will be hosting beginners' workshops for you to get started, and our mentors can always help you out along the way. We greatly encourage new hackers to attend, and no prior experience is necessary!
@@ -75,7 +75,7 @@
                 <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
               </faqitem>
             </div>
-            <div class="col-md-6 faq-col">
+            <div class="col-sm-6 col-md-6 faq-col">
               <h3 class="faq-header">Event</h3>
               <faqitem title="What should I bring?">
                 Be sure to bring your photo ID, laptop, phone, chargers, a change of clothes, toiletries, and any other devices you want to use. A government-issued ID is required to rent any hardware.
@@ -310,8 +310,15 @@ $skyline-color: #e0e7f5;
   margin-right: 30px;
 }
 
-@media only screen and (min-width: 64em) {
-  .faq-col:last-child {
+.faq-col:last-child {
+  width: 100%;
+
+  @media only screen and (min-width: 48em) {
+    width: auto;
+    padding-left: 20px;
+  }
+
+  @media only screen and (min-width: 64em) {
     padding-left: 30px;
   }
 }
