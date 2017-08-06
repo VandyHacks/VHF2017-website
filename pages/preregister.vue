@@ -57,8 +57,8 @@ $primary-color: #222a53;
     margin-top: 10px;
     $btn-bg: #222a53;
     $btn-font-size: 16px;
-    $btn-padding-v: 10px;
-    $btn-padding-h: 3 * $btn-padding-v;
+    $btn-padding-v: 11.75px;
+    $btn-padding-h: floor(3 * $btn-padding-v);
     font-family: 'Sofia Pro',
     sans-serif;
     width: 290px;
