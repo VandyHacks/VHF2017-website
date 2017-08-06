@@ -112,7 +112,7 @@
           <sponsors/>
           &nbsp;
           <h3 class="sponsor-info">If you're interested in sponsoring VandyHacks, please email us at
-            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a>.</h3>
+            <a href="mailto:sponsor@vandyhacks.org">sponsor@vandyhacks.org</a></h3>
         </div>
       </div>
     </div>
