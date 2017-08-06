@@ -88,7 +88,7 @@ export default {
       'with the bare minimum of technical effort possible',
       'using 100% free range artisanal pixels',
       'under extreme duress',
-      'within an unreasonably short time',
+      'within an unreasonably short amount of time',
       'with a keyboard',
       'with the hippest web technologies',
       'in a galaxy far, far away',
@@ -97,7 +97,7 @@ export default {
       'with the one trick that doctors don\'t want you to know',
       'with no warranty of any kind, either expressed or implied,',
       'under penalty of perjury',
-      'with chemicals that are known to cause cancer in the state of California'
+      'with chemicals that are known to cause cancer in the State of California'
     ]
     this.ingredients = ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
   }
