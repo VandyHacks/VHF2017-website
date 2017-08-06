@@ -297,6 +297,7 @@ $skyline-color: #e0e7f5;
 .faq-header {
   text-decoration: underline;
   font-weight: normal;
+  margin-top: 20px;
 }
 
 .faq-desk {
