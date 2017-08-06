@@ -60,7 +60,7 @@ $hover-opacity: 0.75;
 
 <template>
   <div class="footer">
-    <div class="attribution">Made {{ ingredients }} by the VandyHacks team</div>
+    <div class="attribution" v-html="'Made ' + ingredients + ' by the VandyHacks team'" />
     <div class="social-icons">
       <a href="https://www.facebook.com/vandyhacks/" target="_blank">
         <img class="icon" src="~assets/img/facebook-white.svg" alt="Facebook" />
@@ -88,7 +88,9 @@ export default {
       'with the bare minimum of technical effort possible',
       'using 100% free range artisanal pixels',
       'under extreme duress',
-      'within an unreasonably short time'
+      'within an unreasonably short time',
+      'with a keyboard',
+      'with the hippest web technologies'
     ]
     this.ingredients = ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
   }
