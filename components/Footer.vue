@@ -60,9 +60,7 @@ $hover-opacity: 0.75;
 
 <template>
   <div class="footer">
-    <div class="attribution">Made {{ ingredients }} by the
-      <a class="attr-link" href="https://github.com/orgs/VandyHacks/people" target="_blank" rel="noopener">VandyHacks team</a>
-    </div>
+    <div class="attribution">Made {{ ingredients }} by the VandyHacks team</div>
     <div class="social-icons">
       <a href="https://www.facebook.com/vandyhacks/" target="_blank">
         <img class="icon" src="~assets/img/facebook-white.svg" alt="Facebook" />
@@ -73,7 +71,6 @@ $hover-opacity: 0.75;
       <a href="https://www.instagram.com/vandyhacks/" target="_blank">
         <img class="icon" src="~assets/img/instagram-white.svg" alt="Instagram" />
       </a>
-  
     </div>
   </div>
 </template>
