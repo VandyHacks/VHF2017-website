@@ -191,7 +191,7 @@ export default {
 .apply-btn {
   $btn-bg: #222a53;
   $btn-font-size: 16px;
-  $btn-padding-v: 15px;
+  $btn-padding-v: 15.75px;
   $btn-padding-h: 2 * $btn-padding-v;
 
   color: white;
