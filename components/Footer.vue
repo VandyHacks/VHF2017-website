@@ -90,7 +90,13 @@ export default {
       'under extreme duress',
       'within an unreasonably short time',
       'with a keyboard',
-      'with the hippest web technologies'
+      'with the hippest web technologies',
+      'in a galaxy far, far away',
+      'with NASA-grade code quality standards',
+      'in mom\'s basement',
+      'with the one trick that doctors don\'t want you to know',
+      'with no warranty of any kind, either expressed or implied,',
+      'under penalty of perjury'
     ]
     this.ingredients = ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
   }
