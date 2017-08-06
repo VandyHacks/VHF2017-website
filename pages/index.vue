@@ -53,7 +53,7 @@
                 Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
               </faqitem>
               <faqitem title="How does registration work?">
-                Applications will open soon on vandyhacks.org. Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
+                Applications will open soon on <a href="https://vandyhacks.org" target="_blank">vandyhacks.org</a>. Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
                 <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a>!
               </faqitem>
               <faqitem title="What if I'm a Vanderbilt student?">
