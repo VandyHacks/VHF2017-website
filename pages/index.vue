@@ -275,6 +275,7 @@ $skyline-color: #e0e7f5;
 
 // Content sections
 .description {
+  text-align: center;
   background: #222a53;
   color: white;
 }
