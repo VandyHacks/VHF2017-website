@@ -249,7 +249,7 @@ $skyline-color: #e0e7f5;
 }
 
 .text-contents {
-  max-width: 992px;
+  max-width: 768px;
   margin-left: auto;
   margin-right: auto;
   padding: 36px;
@@ -271,7 +271,6 @@ $skyline-color: #e0e7f5;
 .description {
   background: #222a53;
   color: white;
-  text-align: center;
 }
 
 // .schedule {
