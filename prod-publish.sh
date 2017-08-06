@@ -9,4 +9,4 @@ rm -rf *
 cp -r $DIST_DIR/* .
 git add -A
 git commit -m "Update site"
-git push
+git push --force
