@@ -88,6 +88,7 @@ export default {
       // 'with the bare minimum amount of effort possible',
       // 'using 100% free range artisanal pixels',
       // 'under extreme duress',
+      'with real sugar',
       'in an unreasonably short amount of time',
       // 'with a keyboard',
       'with certified webscale\u2122 technologies',
