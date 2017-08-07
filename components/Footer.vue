@@ -96,7 +96,7 @@ export default {
       'in a galaxy far, far away',
       'using iterative Agile\u00AE methodologies',
       'in mom\'s basement',
-      'with the one trick that doctors don\'t want you to know',
+      'with this one weird trick that doctors don\'t want you to know',
       'with no warranty of any kind, either expressed or implied,'
       // 'under penalty of perjury',
       // 'with chemicals that are known to cause cancer in the State of California'
