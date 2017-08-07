@@ -85,19 +85,19 @@ export default {
   mounted() {
     const ingredientsList = [
       'with duct tape and spit',
-      'with the bare minimum amount of technical effort possible',
+      'with the bare minimum amount of effort possible',
       'using 100% free range artisanal pixels',
-      'under extreme duress',
-      'within an unreasonably short amount of time',
-      'with a keyboard',
-      'with the hippest web technologies',
+      // 'under extreme duress',
+      'in an unreasonably short amount of time',
+      // 'with a keyboard',
+      'with certified webscale\u2122 technologies',
       'in a galaxy far, far away',
-      'with NASA-grade code quality standards',
+      'using iterative Agile\u00AE methodologies',
       'in mom\'s basement',
       'with the one trick that doctors don\'t want you to know',
-      'with no warranty of any kind, either expressed or implied,',
-      'under penalty of perjury',
-      'with chemicals that are known to cause cancer in the State of California'
+      'with no warranty of any kind, either expressed or implied,'
+      // 'under penalty of perjury',
+      // 'with chemicals that are known to cause cancer in the State of California'
     ]
     this.ingredients = ingredientsList[Math.floor(Math.random() * ingredientsList.length)]
   }
