@@ -85,8 +85,8 @@ export default {
   mounted() {
     const ingredientsList = [
       'with duct tape and spit',
-      'with the bare minimum amount of effort possible',
-      'using 100% free range artisanal pixels',
+      // 'with the bare minimum amount of effort possible',
+      // 'using 100% free range artisanal pixels',
       // 'under extreme duress',
       'in an unreasonably short amount of time',
       // 'with a keyboard',
