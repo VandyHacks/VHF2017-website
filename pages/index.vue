@@ -126,7 +126,6 @@
 <script>
 import MlhBadge from '~/components/MlhBadge.vue'
 import Separator from '~/components/Separator.vue'
-import Infobox from '~/components/Infobox.vue'
 import FaqItem from '~/components/FaqItem.vue'
 import GoogleMap from '~/components/GoogleMap.vue'
 import Sponsors from '~/components/Sponsors.vue'
@@ -139,7 +138,6 @@ export default {
   components: {
     mlhbadge: MlhBadge,
     separator: Separator,
-    infobox: Infobox,
     faqitem: FaqItem,
     batmanbuilding: BatmanBuilding,
     googlemap: GoogleMap,
