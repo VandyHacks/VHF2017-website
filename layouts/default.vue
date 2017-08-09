@@ -11,14 +11,14 @@ html,
 
 @font-face {
   font-family: 'Sofia Pro';
-  src: url("~assets/fonts/SofiaProRegular.woff2") format("woff2"), url("~assets/fonts/SofiaProRegular.woff") format("woff");
+  src: url("/fonts/SofiaProRegular.woff2") format("woff2"), url("/fonts/SofiaProRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Sofia Pro';
-  src: url("~assets/fonts/SofiaProSemiBold.woff2") format("woff2"), url("~assets/fonts/SofiaProSemiBold.woff") format("woff");
+  src: url("/fonts/SofiaProSemiBold.woff2") format("woff2"), url("/fonts/SofiaProSemiBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
