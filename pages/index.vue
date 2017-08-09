@@ -143,6 +143,13 @@ export default {
     googlemap: GoogleMap,
     sponsors: Sponsors,
     sitefooter: Footer
+  },
+  mounted() {
+    if (process.browser) {
+      const xhr = new XMLHttpRequest()
+      xhr.open('GET', 'https://apply.vandyhacks.org/wakemydyno.txt', true)
+      xhr.send()
+    }
   }
 }
 </script>
