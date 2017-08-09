@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <span ontouchstart="" class="apply-btn" @click="$router.push('/preregister')">Get Notified</span>
+            <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/">Get Notified</a>
           </div>
         </div>
       </div>
