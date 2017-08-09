@@ -97,7 +97,7 @@
               </faqitem>
               <faqitem title="What if I’m interested in being a mentor?">
                 Send us an email at
-                <a href="mailto:info@vandyhacks.org">info@vandyhacks.org</a>.
+                <a href="mailto:mentor@vandyhacks.org">mentor@vandyhacks.org</a>.
               </faqitem>
               <h3 class="faq-header">Other</h3>
               <faqitem title="My question wasn't addressed here. What should I do?">
