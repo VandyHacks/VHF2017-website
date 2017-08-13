@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <span ontouchstart="" class="apply-btn" @click="$router.push('/preregister')">Get Notified</span>
+            <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/">Get Notified</a>
           </div>
         </div>
       </div>
@@ -143,6 +143,13 @@ export default {
     googlemap: GoogleMap,
     sponsors: Sponsors,
     sitefooter: Footer
+  },
+  mounted() {
+    if (process.browser) {
+      const xhr = new XMLHttpRequest()
+      xhr.open('GET', 'https://apply.vandyhacks.org/wakemydyno.txt', true)
+      xhr.send()
+    }
   }
 }
 </script>
