@@ -68,7 +68,7 @@
                 Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants.
               </faqitem>
               <faqitem title="Will travel reimbursements be provided?">
-                Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis.
+                Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis. Be sure to indicate that you will require travel reimbursement on the RSVP form.
               </faqitem>
               <faqitem title="Will there be parking available for attendees?">
                 Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it
