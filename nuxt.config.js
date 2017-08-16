@@ -15,7 +15,8 @@ module.exports = {
       { property: 'og:image:height', content: '630' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'preload', href: 'fonts/SofiaProSemiBold.woff2', as: 'font', type: 'font/woff2', crossorigin: '' }
     ]
   },
   /*
