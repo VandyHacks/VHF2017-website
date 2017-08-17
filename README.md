@@ -1,6 +1,6 @@
-# vandyhacks
+# VHF2017-website
 
-> The official site for VandyHacks
+> The official VandyHacks site. For registration, see [VHF2017-registration](https://github.com/VandyHacks/VHF2017-registration).
 
 ## Build Setup
 
@@ -17,6 +17,9 @@ $ npm start
 
 # generate static project
 $ npm run generate
+
+# deploy to GitHub Pages, with vandyhacks-site cloned in same dir
+$ ./prod-publish.sh
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
