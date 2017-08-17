@@ -20,6 +20,11 @@
             <a href="https://www.chick-fil-a.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/chickfila.png" alt="Chick-fil-A" />
             </a>
+            <a href="https://www.capitalone.com/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/capital-one.svg" alt="Capital One" />
+            </a>
+        </div>
+        <div class="sponsor-row tier-3">
             <img src="~assets/img/sponsors/morecoming.svg" alt="More coming..." />
         </div>
     </div>
