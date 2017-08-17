@@ -97,7 +97,7 @@ export default {
       'using iterative Agile\u00AE methodologies',
       'in mom\'s basement',
       'with this one weird trick',
-      'with no warranty of any kind, either expressed or implied,'
+      'with no warranty of any kind, either express or implied,'
       // 'under penalty of perjury',
       // 'with chemicals that are known to cause cancer in the State of California'
     ]
