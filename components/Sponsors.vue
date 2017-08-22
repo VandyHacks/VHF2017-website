@@ -20,7 +20,7 @@
             <a href="https://www.chick-fil-a.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/chickfila.svg" alt="Chick-fil-A" />
             </a>
-            <a href="https://www.capitalone.com/" target="_blank" rel="noopener">
+            <a href="https://campus.capitalone.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/capital-one.svg" alt="Capital One" />
             </a>
         </div>
