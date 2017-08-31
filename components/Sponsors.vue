@@ -25,6 +25,12 @@
             </a>
         </div>
         <div class="sponsor-row tier-3">
+            <a href="https://www.twilio.com/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/twilio.svg" alt="Twilio" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/facebook.svg" alt="Facebook" />
+            </a>
             <img src="~assets/img/sponsors/morecoming.svg" alt="More coming..." />
         </div>
     </div>
