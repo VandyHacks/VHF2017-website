@@ -64,8 +64,11 @@
                 We ask that everyone complete an application, but walk-ins will be accepted if space allows. We cannot guarantee swag for walk-ins.
               </faqitem>
               <h3 class="faq-header">Logistics</h3>
-              <faqitem title="How do I get there?">
-                Cars, buses, or flights, depending on location! We'll be sending buses to specific schools with large numbers of applicants.
+              <faqitem title="Will you be providing buses to schools?">
+                Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we get enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
+              </faqitem>
+              <faqitem title="How do I get there if I'm not near a bus stop?">
+                We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
               </faqitem>
               <faqitem title="Will travel reimbursements be provided?">
                 Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis. Be sure to indicate that you will require travel reimbursement on the RSVP form.
