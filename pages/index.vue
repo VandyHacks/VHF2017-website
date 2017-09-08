@@ -65,7 +65,7 @@
               </faqitem>
               <h3 class="faq-header">Logistics</h3>
               <faqitem title="Will you be providing buses to schools?">
-                Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we get enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
+                Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we receive enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
               </faqitem>
               <faqitem title="How do I get there if I'm not near a bus stop?">
                 We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
