@@ -70,9 +70,6 @@
               <faqitem title="How do I get there if I'm not near a bus stop?">
                 We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
               </faqitem>
-              <faqitem title="Will travel reimbursements be provided?">
-                Travel reimbursements outside of the bus routes are tentative and will be awarded on a rolling basis. Be sure to indicate that you will require travel reimbursement on the RSVP form.
-              </faqitem>
               <faqitem title="Will there be parking available for attendees?">
                 Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it
                 <a href="https://goo.gl/maps/qST6JAvvQAz">here</a>.
