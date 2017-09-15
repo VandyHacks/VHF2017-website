@@ -95,7 +95,7 @@ export default {
       'with certified webscale\u2122 technologies',
       'in a galaxy far, far away',
       'using iterative Agile\u00AE methodologies',
-      'in mom\'s basement',
+      // 'in mom\'s basement',
       'with this one weird trick',
       'with no warranty of any kind, either express or implied,'
       // 'under penalty of perjury',
