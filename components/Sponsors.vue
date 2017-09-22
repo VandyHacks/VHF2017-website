@@ -31,6 +31,11 @@
             <a href="https://www.facebook.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/facebook.svg" alt="Facebook" />
             </a>
+            <a href="https://www.stickermule.com/uses/laptop-stickers" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/stickermule.svg" alt="StickerMule" />
+            </a>
+        </div>
+        <div class="sponsor-row tier-3">
             <img src="~assets/img/sponsors/morecoming.svg" alt="More coming..." />
         </div>
     </div>
