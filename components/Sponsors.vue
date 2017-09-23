@@ -2,7 +2,7 @@
     <div class="sponsor-images">
         <div class="sponsor-row tier-1">
             <a href="https://www.microstrategy.com/us" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/microstrategy.png" alt="MicroStrategy" />
+                <img src="~assets/img/sponsors/microstrategy.svg" alt="MicroStrategy" />
             </a>
         </div>
         <div class="sponsor-row tier-2">
