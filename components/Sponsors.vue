@@ -7,15 +7,15 @@
         </div>
         <div class="sponsor-row tier-2">
             <a href="https://www.bnymellon.com/" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/bnymellon.png" alt="BNY Mellon" />
+                <img src="~assets/img/sponsors/bnymellon.svg" alt="BNY Mellon" />
             </a>
             <a href="https://www.centene.com/" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/centenecorp.png" alt="Centene Corporation" />
+                <img src="~assets/img/sponsors/centene.svg" alt="Centene Corporation" />
             </a>
         </div>
         <div class="sponsor-row tier-3">
             <a href="https://www.redventures.com/" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/redventures.png" alt="RED Ventures" />
+                <img src="~assets/img/sponsors/rv.svg" alt="RED Ventures" />
             </a>
             <a href="https://www.chick-fil-a.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/chickfila.svg" alt="Chick-fil-A" />
