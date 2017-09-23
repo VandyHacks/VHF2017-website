@@ -36,6 +36,12 @@
             </a>
         </div>
         <div class="sponsor-row tier-3">
+            <a href="http://www.homedepot.com/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/homedepot.svg" alt="The Home Depot" />
+            </a>
+            <a href="http://www.vgt.net/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/vgt.svg" alt="VGT" />
+            </a>
             <img src="~assets/img/sponsors/morecoming.svg" alt="More coming..." />
         </div>
     </div>
@@ -77,7 +83,7 @@
     &.tier-3 {
         img {
             width: 33.333%;
-            max-width: 240px;
+            height: auto;
         }
     }
 }
