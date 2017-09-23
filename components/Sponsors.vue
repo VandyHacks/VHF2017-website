@@ -36,8 +36,8 @@
             </a>
         </div>
         <div class="sponsor-row tier-3">
-            <a href="http://www.homedepot.com/" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/homedepot.svg" alt="The Home Depot" />
+            <a href="http://www.forcexinc.com/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/l3-forcex.svg" alt="L3 ForceX" />
             </a>
             <a href="http://www.vgt.net/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/vgt.svg" alt="VGT" />
