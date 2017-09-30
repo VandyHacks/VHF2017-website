@@ -28,7 +28,7 @@
             <a href="https://www.twilio.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/twilio.svg" alt="Twilio" />
             </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+            <a href="https://www.facebook.com/careers/university/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/fb-family.svg" alt="Facebook" />
             </a>
             <a href="https://www.stickermule.com/uses/laptop-stickers" target="_blank" rel="noopener">
