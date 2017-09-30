@@ -29,7 +29,7 @@
                 <img src="~assets/img/sponsors/twilio.svg" alt="Twilio" />
             </a>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/facebook.svg" alt="Facebook" />
+                <img src="~assets/img/sponsors/fb-family.svg" alt="Facebook" />
             </a>
             <a href="https://www.stickermule.com/uses/laptop-stickers" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/stickermule.svg" alt="StickerMule" />
