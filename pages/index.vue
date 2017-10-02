@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <span ontouchstart="" class="apply-btn">Applications Closed</span>
+            <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/login">Apply</a>
           </div>
         </div>
       </div>
@@ -199,9 +199,9 @@ export default {
 
 .apply-btn {
   $btn-bg: #222a53;
-  $btn-font-size: 14px;
-  $btn-padding-v: 14.75px;
-  $btn-padding-h: 1.5 * $btn-padding-v;
+  $btn-font-size: 16px;
+  $btn-padding-v: 15.75px;
+  $btn-padding-h: 2 * $btn-padding-v;
 
   color: white;
   background-color: $btn-bg;
@@ -212,9 +212,8 @@ export default {
   font-weight: bold;
   transition: all 0.15s linear;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  cursor: not-allowed;
-  opacity: 0.5;
-/*
+  cursor: pointer;
+
   &:hover,
   &:focus {
     background-color: #394574;
@@ -222,7 +221,7 @@ export default {
 
   &:active {
     background-color: darken($btn-bg, 10%);
-  }*/
+  }
 }
 
 $skyline-color: #e0e7f5;
