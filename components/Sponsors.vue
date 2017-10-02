@@ -46,6 +46,15 @@
                 <img src="~assets/img/sponsors/stickermule.svg" alt="StickerMule" />
             </a>
         </div>
+        <div class="sponsor-row tier-3">
+            <a href="https://fly.io/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/flyio.svg" alt="Fly.io" />
+            </a>
+            <a href="https://commons.vanderbilt.edu/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/ingramcommons.svg" alt="The Martha Rivers Ingram Commons" />
+            </a>
+            <img src="~assets/img/sponsors/morecoming.svg" />
+        </div>
     </div>
 </template>
 
