@@ -53,7 +53,9 @@
             <a href="https://commons.vanderbilt.edu/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/ingramcommons.svg" alt="The Martha Rivers Ingram Commons" />
             </a>
-            <img src="~assets/img/sponsors/morecoming.svg" />
+            <a href="https://engineering.vanderbilt.edu/" target="_blank" rel="noopener">
+                <img src="~assets/img/sponsors/vuse.svg" alt="Vanderbilt University School of Engineering" />
+            </a>
         </div>
     </div>
 </template>
