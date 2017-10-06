@@ -296,7 +296,7 @@ $skyline-color: #e0e7f5;
 
 // .schedule {
 .schedule {
-  background: #2b2e3b;
+  background: #2b2f40;
   color: white;
 }
 
