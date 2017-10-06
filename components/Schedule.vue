@@ -1,7 +1,22 @@
 <style scoped>
 .sched-col {
     flex: 1;
-    margin: 20px 2.5em 0;
+    margin: 20px 1.5em 0;
+}
+
+@media (max-width: 1023px) {
+    .sched-col {
+        flex: 0 0 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1.25em;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .sched-col {
+        margin: 20px 1em 0;
+    }
 }
 
 .sched-col:first-child {
@@ -16,10 +31,15 @@
     text-decoration: underline;
     font-weight: 400;
     margin-bottom: 1em;
+    padding-left: .75em;
 }
 
 .event {
-    margin-top: .75em;
+    padding: .75em;
+}
+
+.event:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .event-name,
@@ -39,7 +59,7 @@
 <template>
     <div class="row">
         <div class="sched-col">
-            <h3 class="date">Friday, Oct 20th</h3>
+            <h3 class="date">Friday, October 20th</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">Check-in</div>
@@ -72,7 +92,7 @@
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date">Saturday, Oct 21st</h3>
+            <h3 class="date">Saturday, October 21st</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">Midnight Snack</div>
@@ -105,7 +125,7 @@
             </div>
         </div>
         <div class="sched-col">
-            <h3 class="date">Sunday, Oct 22nd</h3>
+            <h3 class="date">Sunday, October 22nd</h3>
             <div class="events">
                 <div class="event">
                     <div class="event-name">Midnight Snack</div>
