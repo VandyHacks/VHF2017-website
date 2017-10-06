@@ -36,10 +36,11 @@
 
 .event {
     padding: .75em;
+    background: rgba(255, 255, 255, 0.015);
 }
 
 .event:nth-child(odd) {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.06);
 }
 
 .event-name,
