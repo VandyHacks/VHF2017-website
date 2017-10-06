@@ -31,7 +31,7 @@
     text-decoration: underline;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 1em;
+    margin-bottom: 1.25em;
 }
 
 .event {
