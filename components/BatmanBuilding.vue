@@ -72,7 +72,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 35vh;
+    top: 33vh;
     max-width: 256px;
     filter: drop-shadow(0 50px 25px rgba(255, 255, 255, 0.66));
     pointer-events: none;

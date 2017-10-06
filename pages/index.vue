@@ -168,7 +168,7 @@ export default {
   position: absolute;
   left: 0;
   right: 0;
-  margin: 16.66vh auto 0; // Responsiveness
+  margin: 16vh auto 0; // Responsiveness
   width: 290px;
 
   @media (min-width: $break-s) {
@@ -181,6 +181,7 @@ export default {
 
   @media (min-width: $break-m) {
     width: 495px;
+    margin-top: 14.5vh;
   }
 
   @media (min-width: $break-l) {
