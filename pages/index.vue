@@ -34,6 +34,13 @@
         </div>
       </div>
       <googlemap/>
+      <div class="schedule feature-block">
+        <div class="text-contents">
+          <h1>Schedule</h1>
+          <separator white/>
+          <schedule/>
+        </div>
+      </div>
       <div class="faq feature-block">
         <div class="text-contents">
           <h1>FAQ</h1>
@@ -68,7 +75,8 @@
                 Yes, we will be providing buses to Purdue University, University of Illinois at Urbana-Champaign, Georgia Institute of Technology, and University of Florida. We may also provide a bus at Illinois Institute of Technology for the Chicagoland area if we receive enough applications and RSVPs! If you reserve a seat on the bus (coming soon) and can get to the bus stop, you can get on!
               </faqitem>
               <faqitem title="How do I get there if I'm not near a bus stop?">
-                We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
+                We will be providing gas reimbursements for cars with 3+ hackers in them. Additionally, we may partially subsidize Greyhound and plane tickets. Contact us at
+                <a href="mailto:travel@vandyhacks.org">travel@vandyhacks.org</a> if you have any questions.
               </faqitem>
               <faqitem title="Will there be parking available for attendees?">
                 Yes! Attendees will be able to find parking at the 25th Avenue Garage, conveniently located next to Vanderbilt’s Engineering and Science Building. You can find it
@@ -126,6 +134,7 @@
 <script>
 import MlhBadge from '~/components/MlhBadge.vue'
 import Separator from '~/components/Separator.vue'
+import Schedule from '~/components/Schedule.vue'
 import FaqItem from '~/components/FaqItem.vue'
 import GoogleMap from '~/components/GoogleMap.vue'
 import Sponsors from '~/components/Sponsors.vue'
@@ -138,6 +147,7 @@ export default {
   components: {
     mlhbadge: MlhBadge,
     separator: Separator,
+    schedule: Schedule,
     faqitem: FaqItem,
     batmanbuilding: BatmanBuilding,
     googlemap: GoogleMap,
@@ -285,6 +295,11 @@ $skyline-color: #e0e7f5;
 }
 
 // .schedule {
+.schedule {
+  background: #2b2e3b;
+  color: white;
+}
+
 .faq {
   background: #565f86;
   color: white;
@@ -293,13 +308,16 @@ $skyline-color: #e0e7f5;
 .faq {
   text-align: center;
 
+  a {
+    color: #d0d3e1;
+  }
+}
+
+.faq,
+.schedule {
   .text-contents {
     text-align: left; // padding-bottom: 15px;
     max-width: 1200px;
-  }
-
-  a {
-    color: #d0d3e1;
   }
 }
 
