@@ -27,10 +27,6 @@
           <p>Founded in the spring of 2015, VandyHacks was the first collegiate hackathon to call Nashville, Tennessee home. Now, we're proud to bring you VandyHacks IV! From October 20-22, 2017, 400+ students from colleges and universities across the nation will gather at Vanderbilt University’s Engineering and Science Building for a weekend of collaboration, innovation, and entrepreneurship.</p>
           &nbsp;
           <p>For 36 hours, participants will work together to bring their ideas to life - and have lots of fun doing it! VandyHacks welcomes beginners, and we encourage all students to apply, regardless of their major or background.</p>
-          &nbsp;
-          <p>
-            <b>We are currently working out the details for the event. More information will be available in a couple of weeks.</b>
-          </p>
         </div>
       </div>
       <googlemap/>
@@ -60,9 +56,7 @@
                 Anyone who is 18 years or older (we will be checking ID) and is currently enrolled in college or university with a valid student ID. International students are invited to apply and attend, but we cannot guarantee full travel reimbursement.
               </faqitem>
               <faqitem title="How does registration work?">
-                Applications are currently open on
-                <a href="https://apply.vandyhacks.org" target="_blank">apply.vandyhacks.org</a>. Acceptance is determined by a variety of factors, and applications will be reviewed by our board on a rolling basis. Once you’re accepted, you’ll receive an email from the VandyHacks team. If you're curious, email us for more info at
-                <a href="mailto:info@vandyhacks.org" target="_blank">info@vandyhacks.org</a>!
+                Registration is currently closed for non-Vanderbilt students. 
               </faqitem>
               <faqitem title="What if I'm a Vanderbilt student?">
                 All Vanderbilt students are encouraged to attend, regardless of major or background.
