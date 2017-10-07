@@ -82,7 +82,7 @@
                     <div class="event-time">10:00p</div>
                 </div>
                 <div class="event">
-                    <div class="event-name">Team Formation</div>
+                    <div class="event-name">Pitch Session</div>
                     <div class="event-time">10:00p</div>
                 </div>
                 <div class="event">
