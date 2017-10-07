@@ -38,6 +38,10 @@
     padding: .75em;
 }
 
+.event:nth-child(even):last-child {
+    padding-bottom: .5em;
+}
+
 .event:nth-child(odd) {
     background: rgba(255, 255, 255, 0.05);
 }
@@ -75,6 +79,10 @@
                 </div>
                 <div class="event">
                     <div class="event-name">Hacking Begins</div>
+                    <div class="event-time">10:00p</div>
+                </div>
+                <div class="event">
+                    <div class="event-name">Team Formation</div>
                     <div class="event-time">10:00p</div>
                 </div>
                 <div class="event">
@@ -119,6 +127,10 @@
                     <div class="event-time">5:30p</div>
                 </div>
                 <div class="event">
+                    <div class="event-name">Wellness Night</div>
+                    <div class="event-time">7:00p</div>
+                </div>
+                <div class="event">
                     <div class="event-name">Werewolf, hosted by MLH</div>
                     <div class="event-time">9:00p</div>
                 </div>
@@ -154,6 +166,10 @@
                 <div class="event">
                     <div class="event-name">Closing Ceremony</div>
                     <div class="event-time">1:30p</div>
+                </div>
+                <div class="event">
+                    <div class="event-name">Buses Depart</div>
+                    <div class="event-time">3:30p</div>
                 </div>
             </div>
         </div>
