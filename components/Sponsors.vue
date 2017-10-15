@@ -28,28 +28,25 @@
             <a href="https://www.chick-fil-a.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/chickfila.svg" alt="Chick-fil-A" />
             </a>
-            <a href="http://www.vgt.net/" target="_blank" rel="noopener">
-                <img src="~assets/img/sponsors/vgt.svg" alt="VGT" />
-            </a>
             <a href="https://careers.homedepot.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/homedepot.svg" alt="Home Depot" />
             </a>
-        </div>
-        <div class="sponsor-row tier-3">
             <a href="https://campus.capitalone.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/capital-one.svg" alt="Capital One" />
             </a>
+        </div>
+        <div class="sponsor-row tier-3">
             <a href="https://www.facebook.com/careers/university/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/fb-family.svg" alt="Facebook" />
             </a>
             <a href="https://www.twilio.com/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/twilio.svg" alt="Twilio" />
             </a>
-        </div>
-        <div class="sponsor-row tier-3">
             <a href="https://www.stickermule.com/uses/laptop-stickers" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/stickermule.svg" alt="StickerMule" />
             </a>
+        </div>
+        <div class="sponsor-row tier-3">
             <a href="https://fly.io/" target="_blank" rel="noopener">
                 <img src="~assets/img/sponsors/flyio.svg" alt="Fly.io" />
             </a>
