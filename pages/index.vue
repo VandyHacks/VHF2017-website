@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <a ontouchstart="" class="apply-btn" href="https://apply.vandyhacks.org/login">Login</a>
+            <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">Submissions</a>
           </div>
         </div>
       </div>
@@ -204,9 +204,9 @@ export default {
 
 .apply-btn {
   $btn-bg: #222a53;
-  $btn-font-size: 16px;
+  $btn-font-size: 14px;
   $btn-padding-v: 15.75px;
-  $btn-padding-h: 2 * $btn-padding-v;
+  $btn-padding-h: 1.5 * $btn-padding-v;
 
   color: white;
   background-color: $btn-bg;
