@@ -11,7 +11,7 @@
         <div class="logo">
           <img alt="VandyHacks IV" src="~assets/img/vandyhacks-text.svg" />
           <div class="actions">
-            <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">View Projects</a>
+            <a ontouchstart="" class="apply-btn" href="https://vandyhacksiv.devpost.com/submissions">View Winners</a>
           </div>
         </div>
       </div>
